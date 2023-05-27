@@ -19,9 +19,16 @@
 
 ![App Screenshot](https://github.com/JosueC07183/ProyectoIE0217/blob/main/Propuesta/Images/Inicio.png?raw=true)
 
+Una vez que ingrese correctamente los datos ya sea el administrador o el usuario se procede a darle click en el botón ``Ingresar``, si los datos no están correctos entonces, el sistema no permitirá acceder a la siguiente página donde se mostrará la información correspondiente. 
+
+### Creación de nuevo usuario
+- Si se trata de un nuevo cliente, entonces se solicitan los siguientes datos:
+![App Screenshot](https://github.com/JosueC07183/ProyectoIE0217/blob/main/Propuesta/Images/registro.png?raw=true)
+Los espacios para rellenar la información tendrán una expresión regular (cuando lo amerite) para procurar que el cliente digite la información pertinente. Cuando da click el botón de ``Registrarse`` la idea es que regrese a la página inicial donde ahora si pueda digitar sus datos recién hechos y puede acceder al sistema de información de los apartamentos.
+>Nota: La información de los clientes se manejará de manera local en un archivo .txt
 
 
-
+>Nota: Toda la información de los usuarios se maneja de manera local en un archivo .txt
 
 
 
