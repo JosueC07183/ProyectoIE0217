@@ -24,11 +24,15 @@ Una vez que ingrese correctamente los datos ya sea el administrador o el usuario
 ### Creación de nuevo usuario
 - Si se trata de un nuevo cliente, entonces se solicitan los siguientes datos:
 ![App Screenshot](https://github.com/JosueC07183/ProyectoIE0217/blob/main/Propuesta/Images/registro.png?raw=true)
+
 Los espacios para rellenar la información tendrán una expresión regular (cuando lo amerite) para procurar que el cliente digite la información pertinente. Cuando da click el botón de ``Registrarse`` la idea es que regrese a la página inicial donde ahora si pueda digitar sus datos recién hechos y puede acceder al sistema de información de los apartamentos.
->Nota: La información de los clientes se manejará de manera local en un archivo .txt
 
 
 >Nota: Toda la información de los usuarios se maneja de manera local en un archivo .txt
+
+### Vista administrador
+- Cuando el administrador se registra le aparecerán 3 botones. El primero ``Añadir apartamento`` le permite crear un nuevo apartamento con el uso de una clase: ``add_Aparta`` que tendrá todo lo necesario (métodos) para añadir las características a un nuevo hogar. El botón ``Eliminar apartamento`` básicamente eliminará la información de cierto apartamento. El botón ``Ver información actual`` accederá al estado actual de los apartamentos, imprimirá la información sobre cuales apartamentos están disponibles y cuales no. Luego, el botón ``Salir`` cierra sesión y se mostrará la página de inicio.
+
 
 
 
