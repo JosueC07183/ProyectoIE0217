@@ -1,4 +1,0 @@
-/home/josue/build-Inicio-Desktop-Debug/CMakeFiles/Inicio.dir
-/home/josue/build-Inicio-Desktop-Debug/CMakeFiles/edit_cache.dir
-/home/josue/build-Inicio-Desktop-Debug/CMakeFiles/rebuild_cache.dir
-/home/josue/build-Inicio-Desktop-Debug/CMakeFiles/Inicio_autogen.dir

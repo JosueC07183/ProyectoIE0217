@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/Inicio.dir/Inicio_autogen/mocs_compilation.cpp.o CMakeFiles/Inicio.dir/main.cpp.o CMakeFiles/Inicio.dir/dialog.cpp.o -o Inicio  -Wl,-rpath,/home/josue/anaconda3/lib /home/josue/anaconda3/lib/libQt5Widgets.so.5.15.2 /home/josue/anaconda3/lib/libQt5Gui.so.5.15.2 /home/josue/anaconda3/lib/libQt5Core.so.5.15.2 
