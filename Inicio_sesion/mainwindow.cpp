@@ -30,7 +30,7 @@ void MainWindow::on_pushButton_Login_clicked()
     }
 }
 
-// Nuevo metodo
+// Nuevo metodo salir.
 void MainWindow::on_pushButton_Exit_clicked()
 {
     QMessageBox::StandardButton aux;
@@ -40,11 +40,12 @@ void MainWindow::on_pushButton_Exit_clicked()
     }
 }
 
-// Nuevo metodo
+// Nuevo metodo cuenta nueva.
 void MainWindow::on_pushButton_NewAccount_clicked()
 {
     Vista_User *new_user = new Vista_User();
-    new_user->show();
 
+    new_user->show();
+    close();
 }
 

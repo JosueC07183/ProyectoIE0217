@@ -277,13 +277,20 @@ CMakeFiles/Inicio_sesion.dir/main.cpp.o: \
  /home/josue/Inicio_sesion/vista_user.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
  /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h \
+ /home/josue/anaconda3/include/qt/QtCore/QFile \
+ /home/josue/anaconda3/include/qt/QtCore/qfile.h \
+ /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h \
+ /home/josue/anaconda3/include/qt/QtCore/QTextStream \
+ /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
+ /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
+ /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
+ /home/josue/anaconda3/include/qt/QtCore/qmap.h \
+ /home/josue/anaconda3/include/qt/QtCore/QString \
+ /home/josue/anaconda3/include/qt/QtCore/qstring.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QApplication \
  /home/josue/anaconda3/include/qt/QtWidgets/qapplication.h \
  /home/josue/anaconda3/include/qt/QtCore/qcoreapplication.h \
  /home/josue/anaconda3/include/qt/QtCore/qcoreevent.h \
  /home/josue/anaconda3/include/qt/QtCore/qeventloop.h \
  /home/josue/anaconda3/include/qt/QtGui/qguiapplication.h \
- /home/josue/anaconda3/include/qt/QtGui/qinputmethod.h \
- /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
- /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
- /home/josue/anaconda3/include/qt/QtCore/qmap.h
+ /home/josue/anaconda3/include/qt/QtGui/qinputmethod.h

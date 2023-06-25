@@ -26,15 +26,16 @@ public:
     QLabel *label_2;
     QDateEdit *dateEdit;
     QPushButton *pushButton_Registro;
-    QLineEdit *lineName;
-    QLineEdit *lineApellido;
     QLineEdit *lineEmail;
+    QPushButton *pushButton;
+    QLineEdit *linePass;
+    QLineEdit *linePass_2;
 
     void setupUi(QWidget *Vista_User)
     {
         if (Vista_User->objectName().isEmpty())
             Vista_User->setObjectName(QString::fromUtf8("Vista_User"));
-        Vista_User->resize(507, 392);
+        Vista_User->resize(617, 446);
         label = new QLabel(Vista_User);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(10, 20, 141, 31));
@@ -43,17 +44,17 @@ public:
         label->setFont(font);
         label_2 = new QLabel(Vista_User);
         label_2->setObjectName(QString::fromUtf8("label_2"));
-        label_2->setGeometry(QRect(10, 180, 171, 21));
+        label_2->setGeometry(QRect(10, 257, 171, 21));
         QFont font1;
         font1.setPointSize(12);
         label_2->setFont(font1);
         dateEdit = new QDateEdit(Vista_User);
         dateEdit->setObjectName(QString::fromUtf8("dateEdit"));
-        dateEdit->setGeometry(QRect(50, 220, 171, 41));
+        dateEdit->setGeometry(QRect(50, 297, 171, 41));
         dateEdit->setCalendarPopup(true);
         pushButton_Registro = new QPushButton(Vista_User);
         pushButton_Registro->setObjectName(QString::fromUtf8("pushButton_Registro"));
-        pushButton_Registro->setGeometry(QRect(170, 300, 131, 41));
+        pushButton_Registro->setGeometry(QRect(170, 377, 131, 41));
         QFont font2;
         font2.setPointSize(14);
         font2.setBold(true);
@@ -65,15 +66,25 @@ public:
 "color:black;\n"
 "border:circular\n"
 "}"));
-        lineName = new QLineEdit(Vista_User);
-        lineName->setObjectName(QString::fromUtf8("lineName"));
-        lineName->setGeometry(QRect(50, 70, 141, 31));
-        lineApellido = new QLineEdit(Vista_User);
-        lineApellido->setObjectName(QString::fromUtf8("lineApellido"));
-        lineApellido->setGeometry(QRect(270, 70, 141, 31));
         lineEmail = new QLineEdit(Vista_User);
         lineEmail->setObjectName(QString::fromUtf8("lineEmail"));
-        lineEmail->setGeometry(QRect(50, 130, 351, 31));
+        lineEmail->setGeometry(QRect(50, 80, 351, 31));
+        pushButton = new QPushButton(Vista_User);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setGeometry(QRect(530, 380, 71, 41));
+        QFont font3;
+        font3.setPointSize(17);
+        font3.setBold(true);
+        font3.setWeight(75);
+        pushButton->setFont(font3);
+        linePass = new QLineEdit(Vista_User);
+        linePass->setObjectName(QString::fromUtf8("linePass"));
+        linePass->setGeometry(QRect(50, 130, 351, 31));
+        linePass->setEchoMode(QLineEdit::Password);
+        linePass_2 = new QLineEdit(Vista_User);
+        linePass_2->setObjectName(QString::fromUtf8("linePass_2"));
+        linePass_2->setGeometry(QRect(50, 180, 351, 31));
+        linePass_2->setEchoMode(QLineEdit::Password);
 
         retranslateUi(Vista_User);
 
@@ -86,9 +97,10 @@ public:
         label->setText(QCoreApplication::translate("Vista_User", "Registrate", nullptr));
         label_2->setText(QCoreApplication::translate("Vista_User", "Fecha de nacimiento", nullptr));
         pushButton_Registro->setText(QCoreApplication::translate("Vista_User", "Registrarse", nullptr));
-        lineName->setPlaceholderText(QCoreApplication::translate("Vista_User", "Nombre", nullptr));
-        lineApellido->setPlaceholderText(QCoreApplication::translate("Vista_User", "Apellido", nullptr));
         lineEmail->setPlaceholderText(QCoreApplication::translate("Vista_User", "Correo", nullptr));
+        pushButton->setText(QCoreApplication::translate("Vista_User", "Salir", nullptr));
+        linePass->setPlaceholderText(QCoreApplication::translate("Vista_User", "Contrase\303\261a", nullptr));
+        linePass_2->setPlaceholderText(QCoreApplication::translate("Vista_User", "Repite Contrase\303\261a", nullptr));
     } // retranslateUi
 
 };

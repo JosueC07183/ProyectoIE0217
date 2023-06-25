@@ -324,6 +324,16 @@ CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o
  /home/josue/Inicio_sesion/vista_user.h
  /home/josue/anaconda3/include/qt/QtWidgets/QWidget
  /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h
+ /home/josue/anaconda3/include/qt/QtCore/QFile
+ /home/josue/anaconda3/include/qt/QtCore/qfile.h
+ /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h
+ /home/josue/anaconda3/include/qt/QtCore/QTextStream
+ /home/josue/anaconda3/include/qt/QtCore/qtextstream.h
+ /home/josue/anaconda3/include/qt/QtCore/qlocale.h
+ /home/josue/anaconda3/include/qt/QtCore/qvariant.h
+ /home/josue/anaconda3/include/qt/QtCore/qmap.h
+ /home/josue/anaconda3/include/qt/QtCore/QString
+ /home/josue/anaconda3/include/qt/QtCore/qstring.h
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_vista_user.cpp
  /home/josue/Inicio_sesion/vista_user.h
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_welcomewindow.cpp
@@ -651,6 +661,16 @@ CMakeFiles/Inicio_sesion.dir/main.cpp.o
  /home/josue/Inicio_sesion/vista_user.h
  /home/josue/anaconda3/include/qt/QtWidgets/QWidget
  /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h
+ /home/josue/anaconda3/include/qt/QtCore/QFile
+ /home/josue/anaconda3/include/qt/QtCore/qfile.h
+ /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h
+ /home/josue/anaconda3/include/qt/QtCore/QTextStream
+ /home/josue/anaconda3/include/qt/QtCore/qtextstream.h
+ /home/josue/anaconda3/include/qt/QtCore/qlocale.h
+ /home/josue/anaconda3/include/qt/QtCore/qvariant.h
+ /home/josue/anaconda3/include/qt/QtCore/qmap.h
+ /home/josue/anaconda3/include/qt/QtCore/QString
+ /home/josue/anaconda3/include/qt/QtCore/qstring.h
  /home/josue/anaconda3/include/qt/QtWidgets/QApplication
  /home/josue/anaconda3/include/qt/QtWidgets/qapplication.h
  /home/josue/anaconda3/include/qt/QtCore/qcoreapplication.h
@@ -658,9 +678,6 @@ CMakeFiles/Inicio_sesion.dir/main.cpp.o
  /home/josue/anaconda3/include/qt/QtCore/qeventloop.h
  /home/josue/anaconda3/include/qt/QtGui/qguiapplication.h
  /home/josue/anaconda3/include/qt/QtGui/qinputmethod.h
- /home/josue/anaconda3/include/qt/QtCore/qlocale.h
- /home/josue/anaconda3/include/qt/QtCore/qvariant.h
- /home/josue/anaconda3/include/qt/QtCore/qmap.h
 
 CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o
  /home/josue/Inicio_sesion/mainwindow.cpp
@@ -984,10 +1001,19 @@ CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o
  /home/josue/Inicio_sesion/vista_user.h
  /home/josue/anaconda3/include/qt/QtWidgets/QWidget
  /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h
+ /home/josue/anaconda3/include/qt/QtCore/QFile
+ /home/josue/anaconda3/include/qt/QtCore/qfile.h
+ /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h
+ /home/josue/anaconda3/include/qt/QtCore/QTextStream
+ /home/josue/anaconda3/include/qt/QtCore/qtextstream.h
+ /home/josue/anaconda3/include/qt/QtCore/qlocale.h
+ /home/josue/anaconda3/include/qt/QtCore/qvariant.h
+ /home/josue/anaconda3/include/qt/QtCore/qmap.h
+ /home/josue/anaconda3/include/qt/QtCore/QString
+ /home/josue/anaconda3/include/qt/QtCore/qstring.h
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/include/ui_mainwindow.h
  /home/josue/anaconda3/include/qt/QtCore/QVariant
  /home/josue/anaconda3/include/qt/QtCore/qvariant.h
- /home/josue/anaconda3/include/qt/QtCore/qmap.h
  /home/josue/anaconda3/include/qt/QtWidgets/QApplication
  /home/josue/anaconda3/include/qt/QtWidgets/qapplication.h
  /home/josue/anaconda3/include/qt/QtCore/qcoreapplication.h
@@ -995,8 +1021,6 @@ CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o
  /home/josue/anaconda3/include/qt/QtCore/qeventloop.h
  /home/josue/anaconda3/include/qt/QtGui/qguiapplication.h
  /home/josue/anaconda3/include/qt/QtGui/qinputmethod.h
- /home/josue/anaconda3/include/qt/QtCore/qlocale.h
- /home/josue/anaconda3/include/qt/QtCore/qvariant.h
  /home/josue/anaconda3/include/qt/QtWidgets/QGroupBox
  /home/josue/anaconda3/include/qt/QtWidgets/qgroupbox.h
  /home/josue/anaconda3/include/qt/QtWidgets/qframe.h
@@ -1334,10 +1358,19 @@ CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o
  /home/josue/anaconda3/include/qt/QtWidgets/qsizepolicy.h
  /home/josue/anaconda3/include/qt/QtGui/qcursor.h
  /home/josue/anaconda3/include/qt/QtGui/qkeysequence.h
+ /home/josue/anaconda3/include/qt/QtCore/QFile
+ /home/josue/anaconda3/include/qt/QtCore/qfile.h
+ /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h
+ /home/josue/anaconda3/include/qt/QtCore/QTextStream
+ /home/josue/anaconda3/include/qt/QtCore/qtextstream.h
+ /home/josue/anaconda3/include/qt/QtCore/qlocale.h
+ /home/josue/anaconda3/include/qt/QtCore/qvariant.h
+ /home/josue/anaconda3/include/qt/QtCore/qmap.h
+ /home/josue/anaconda3/include/qt/QtCore/QString
+ /home/josue/anaconda3/include/qt/QtCore/qstring.h
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/include/ui_vista_user.h
  /home/josue/anaconda3/include/qt/QtCore/QVariant
  /home/josue/anaconda3/include/qt/QtCore/qvariant.h
- /home/josue/anaconda3/include/qt/QtCore/qmap.h
  /home/josue/anaconda3/include/qt/QtWidgets/QApplication
  /home/josue/anaconda3/include/qt/QtWidgets/qapplication.h
  /home/josue/anaconda3/include/qt/QtCore/qcoreapplication.h
@@ -1345,8 +1378,6 @@ CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o
  /home/josue/anaconda3/include/qt/QtCore/qeventloop.h
  /home/josue/anaconda3/include/qt/QtGui/qguiapplication.h
  /home/josue/anaconda3/include/qt/QtGui/qinputmethod.h
- /home/josue/anaconda3/include/qt/QtCore/qlocale.h
- /home/josue/anaconda3/include/qt/QtCore/qvariant.h
  /home/josue/anaconda3/include/qt/QtWidgets/QDateEdit
  /home/josue/anaconda3/include/qt/QtWidgets/qdatetimeedit.h
  /home/josue/anaconda3/include/qt/QtCore/qdatetime.h
@@ -1358,32 +1389,22 @@ CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o
  /home/josue/anaconda3/include/qt/QtWidgets/QLabel
  /home/josue/anaconda3/include/qt/QtWidgets/qlabel.h
  /home/josue/anaconda3/include/qt/QtWidgets/qframe.h
- /home/josue/anaconda3/include/qt/QtWidgets/QPlainTextEdit
- /home/josue/anaconda3/include/qt/QtWidgets/qplaintextedit.h
- /home/josue/anaconda3/include/qt/QtWidgets/qtextedit.h
- /home/josue/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
- /home/josue/anaconda3/include/qt/QtGui/qtextdocument.h
- /home/josue/anaconda3/include/qt/QtCore/qurl.h
- /home/josue/anaconda3/include/qt/QtGui/qtextoption.h
+ /home/josue/anaconda3/include/qt/QtWidgets/QLineEdit
+ /home/josue/anaconda3/include/qt/QtWidgets/qlineedit.h
  /home/josue/anaconda3/include/qt/QtGui/qtextcursor.h
  /home/josue/anaconda3/include/qt/QtGui/qtextformat.h
  /home/josue/anaconda3/include/qt/QtGui/qpen.h
- /home/josue/anaconda3/include/qt/QtGui/qabstracttextdocumentlayout.h
- /home/josue/anaconda3/include/qt/QtGui/qtextlayout.h
- /home/josue/anaconda3/include/qt/QtGui/qevent.h
- /home/josue/anaconda3/include/qt/QtCore/qset.h
- /home/josue/anaconda3/include/qt/QtCore/qfile.h
- /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h
- /home/josue/anaconda3/include/qt/QtGui/qvector2d.h
- /home/josue/anaconda3/include/qt/QtGui/qtouchdevice.h
- /home/josue/anaconda3/include/qt/QtGui/qglyphrun.h
- /home/josue/anaconda3/include/qt/QtGui/qrawfont.h
- /home/josue/anaconda3/include/qt/QtGui/qfontdatabase.h
+ /home/josue/anaconda3/include/qt/QtGui/qtextoption.h
  /home/josue/anaconda3/include/qt/QtWidgets/QPushButton
  /home/josue/anaconda3/include/qt/QtWidgets/qpushbutton.h
  /home/josue/anaconda3/include/qt/QtWidgets/qabstractbutton.h
  /home/josue/anaconda3/include/qt/QtGui/qicon.h
  /home/josue/anaconda3/include/qt/QtWidgets/QWidget
+ /home/josue/anaconda3/include/qt/QtGui/QRegularExpressionValidator
+ /home/josue/anaconda3/include/qt/QtGui/qvalidator.h
+ /home/josue/anaconda3/include/qt/QtWidgets/QMessageBox
+ /home/josue/anaconda3/include/qt/QtWidgets/qmessagebox.h
+ /home/josue/anaconda3/include/qt/QtWidgets/qdialog.h
 
 CMakeFiles/Inicio_sesion.dir/welcomewindow.cpp.o
  /home/josue/Inicio_sesion/welcomewindow.cpp

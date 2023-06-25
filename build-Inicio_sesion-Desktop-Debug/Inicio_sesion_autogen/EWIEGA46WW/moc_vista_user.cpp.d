@@ -1,5 +1,8 @@
 /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_vista_user.cpp: /home/josue/Inicio_sesion/vista_user.h \
   /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/moc_predefs.h \
+  /home/josue/anaconda3/include/qt/QtCore/QFile \
+  /home/josue/anaconda3/include/qt/QtCore/QString \
+  /home/josue/anaconda3/include/qt/QtCore/QTextStream \
   /home/josue/anaconda3/include/qt/QtCore/qalgorithms.h \
   /home/josue/anaconda3/include/qt/QtCore/qarraydata.h \
   /home/josue/anaconda3/include/qt/QtCore/qatomic.h \
@@ -13,6 +16,8 @@
   /home/josue/anaconda3/include/qt/QtCore/qcontainerfwd.h \
   /home/josue/anaconda3/include/qt/QtCore/qcontainertools_impl.h \
   /home/josue/anaconda3/include/qt/QtCore/qdatastream.h \
+  /home/josue/anaconda3/include/qt/QtCore/qfile.h \
+  /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h \
   /home/josue/anaconda3/include/qt/QtCore/qflags.h \
   /home/josue/anaconda3/include/qt/QtCore/qgenericatomic.h \
   /home/josue/anaconda3/include/qt/QtCore/qglobal.h \
@@ -23,7 +28,9 @@
   /home/josue/anaconda3/include/qt/QtCore/qiterator.h \
   /home/josue/anaconda3/include/qt/QtCore/qline.h \
   /home/josue/anaconda3/include/qt/QtCore/qlist.h \
+  /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
   /home/josue/anaconda3/include/qt/QtCore/qlogging.h \
+  /home/josue/anaconda3/include/qt/QtCore/qmap.h \
   /home/josue/anaconda3/include/qt/QtCore/qmargins.h \
   /home/josue/anaconda3/include/qt/QtCore/qmetatype.h \
   /home/josue/anaconda3/include/qt/QtCore/qnamespace.h \
@@ -52,7 +59,9 @@
   /home/josue/anaconda3/include/qt/QtCore/qsysinfo.h \
   /home/josue/anaconda3/include/qt/QtCore/qsystemdetection.h \
   /home/josue/anaconda3/include/qt/QtCore/qtcore-config.h \
+  /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
   /home/josue/anaconda3/include/qt/QtCore/qtypeinfo.h \
+  /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
   /home/josue/anaconda3/include/qt/QtCore/qvarlengtharray.h \
   /home/josue/anaconda3/include/qt/QtCore/qvector.h \
   /home/josue/anaconda3/include/qt/QtCore/qversiontagging.h \
@@ -243,6 +252,7 @@
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
+  /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -281,6 +291,7 @@
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
@@ -293,15 +304,19 @@
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \

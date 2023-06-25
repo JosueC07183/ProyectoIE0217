@@ -323,6 +323,16 @@ CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o: Inici
   /home/josue/Inicio_sesion/vista_user.h \
   /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
   /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h \
+  /home/josue/anaconda3/include/qt/QtCore/QFile \
+  /home/josue/anaconda3/include/qt/QtCore/qfile.h \
+  /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h \
+  /home/josue/anaconda3/include/qt/QtCore/QTextStream \
+  /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
+  /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
+  /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
+  /home/josue/anaconda3/include/qt/QtCore/qmap.h \
+  /home/josue/anaconda3/include/qt/QtCore/QString \
+  /home/josue/anaconda3/include/qt/QtCore/qstring.h \
   Inicio_sesion_autogen/EWIEGA46WW/moc_vista_user.cpp \
   /home/josue/Inicio_sesion/vista_user.h \
   Inicio_sesion_autogen/EWIEGA46WW/moc_welcomewindow.cpp \
@@ -649,16 +659,23 @@ CMakeFiles/Inicio_sesion.dir/main.cpp.o: /home/josue/Inicio_sesion/main.cpp \
   /home/josue/Inicio_sesion/vista_user.h \
   /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
   /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h \
+  /home/josue/anaconda3/include/qt/QtCore/QFile \
+  /home/josue/anaconda3/include/qt/QtCore/qfile.h \
+  /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h \
+  /home/josue/anaconda3/include/qt/QtCore/QTextStream \
+  /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
+  /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
+  /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
+  /home/josue/anaconda3/include/qt/QtCore/qmap.h \
+  /home/josue/anaconda3/include/qt/QtCore/QString \
+  /home/josue/anaconda3/include/qt/QtCore/qstring.h \
   /home/josue/anaconda3/include/qt/QtWidgets/QApplication \
   /home/josue/anaconda3/include/qt/QtWidgets/qapplication.h \
   /home/josue/anaconda3/include/qt/QtCore/qcoreapplication.h \
   /home/josue/anaconda3/include/qt/QtCore/qcoreevent.h \
   /home/josue/anaconda3/include/qt/QtCore/qeventloop.h \
   /home/josue/anaconda3/include/qt/QtGui/qguiapplication.h \
-  /home/josue/anaconda3/include/qt/QtGui/qinputmethod.h \
-  /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
-  /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
-  /home/josue/anaconda3/include/qt/QtCore/qmap.h
+  /home/josue/anaconda3/include/qt/QtGui/qinputmethod.h
 
 CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o: /home/josue/Inicio_sesion/mainwindow.cpp \
   /usr/include/stdc-predef.h \
@@ -981,10 +998,19 @@ CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o: /home/josue/Inicio_sesion/mainwin
   /home/josue/Inicio_sesion/vista_user.h \
   /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
   /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h \
+  /home/josue/anaconda3/include/qt/QtCore/QFile \
+  /home/josue/anaconda3/include/qt/QtCore/qfile.h \
+  /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h \
+  /home/josue/anaconda3/include/qt/QtCore/QTextStream \
+  /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
+  /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
+  /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
+  /home/josue/anaconda3/include/qt/QtCore/qmap.h \
+  /home/josue/anaconda3/include/qt/QtCore/QString \
+  /home/josue/anaconda3/include/qt/QtCore/qstring.h \
   Inicio_sesion_autogen/include/ui_mainwindow.h \
   /home/josue/anaconda3/include/qt/QtCore/QVariant \
   /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
-  /home/josue/anaconda3/include/qt/QtCore/qmap.h \
   /home/josue/anaconda3/include/qt/QtWidgets/QApplication \
   /home/josue/anaconda3/include/qt/QtWidgets/qapplication.h \
   /home/josue/anaconda3/include/qt/QtCore/qcoreapplication.h \
@@ -992,8 +1018,6 @@ CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o: /home/josue/Inicio_sesion/mainwin
   /home/josue/anaconda3/include/qt/QtCore/qeventloop.h \
   /home/josue/anaconda3/include/qt/QtGui/qguiapplication.h \
   /home/josue/anaconda3/include/qt/QtGui/qinputmethod.h \
-  /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
-  /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
   /home/josue/anaconda3/include/qt/QtWidgets/QGroupBox \
   /home/josue/anaconda3/include/qt/QtWidgets/qgroupbox.h \
   /home/josue/anaconda3/include/qt/QtWidgets/qframe.h \
@@ -1330,10 +1354,19 @@ CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o: /home/josue/Inicio_sesion/vista_u
   /home/josue/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
   /home/josue/anaconda3/include/qt/QtGui/qcursor.h \
   /home/josue/anaconda3/include/qt/QtGui/qkeysequence.h \
+  /home/josue/anaconda3/include/qt/QtCore/QFile \
+  /home/josue/anaconda3/include/qt/QtCore/qfile.h \
+  /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h \
+  /home/josue/anaconda3/include/qt/QtCore/QTextStream \
+  /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
+  /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
+  /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
+  /home/josue/anaconda3/include/qt/QtCore/qmap.h \
+  /home/josue/anaconda3/include/qt/QtCore/QString \
+  /home/josue/anaconda3/include/qt/QtCore/qstring.h \
   Inicio_sesion_autogen/include/ui_vista_user.h \
   /home/josue/anaconda3/include/qt/QtCore/QVariant \
   /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
-  /home/josue/anaconda3/include/qt/QtCore/qmap.h \
   /home/josue/anaconda3/include/qt/QtWidgets/QApplication \
   /home/josue/anaconda3/include/qt/QtWidgets/qapplication.h \
   /home/josue/anaconda3/include/qt/QtCore/qcoreapplication.h \
@@ -1341,8 +1374,6 @@ CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o: /home/josue/Inicio_sesion/vista_u
   /home/josue/anaconda3/include/qt/QtCore/qeventloop.h \
   /home/josue/anaconda3/include/qt/QtGui/qguiapplication.h \
   /home/josue/anaconda3/include/qt/QtGui/qinputmethod.h \
-  /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
-  /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
   /home/josue/anaconda3/include/qt/QtWidgets/QDateEdit \
   /home/josue/anaconda3/include/qt/QtWidgets/qdatetimeedit.h \
   /home/josue/anaconda3/include/qt/QtCore/qdatetime.h \
@@ -1354,32 +1385,22 @@ CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o: /home/josue/Inicio_sesion/vista_u
   /home/josue/anaconda3/include/qt/QtWidgets/QLabel \
   /home/josue/anaconda3/include/qt/QtWidgets/qlabel.h \
   /home/josue/anaconda3/include/qt/QtWidgets/qframe.h \
-  /home/josue/anaconda3/include/qt/QtWidgets/QPlainTextEdit \
-  /home/josue/anaconda3/include/qt/QtWidgets/qplaintextedit.h \
-  /home/josue/anaconda3/include/qt/QtWidgets/qtextedit.h \
-  /home/josue/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h \
-  /home/josue/anaconda3/include/qt/QtGui/qtextdocument.h \
-  /home/josue/anaconda3/include/qt/QtCore/qurl.h \
-  /home/josue/anaconda3/include/qt/QtGui/qtextoption.h \
+  /home/josue/anaconda3/include/qt/QtWidgets/QLineEdit \
+  /home/josue/anaconda3/include/qt/QtWidgets/qlineedit.h \
   /home/josue/anaconda3/include/qt/QtGui/qtextcursor.h \
   /home/josue/anaconda3/include/qt/QtGui/qtextformat.h \
   /home/josue/anaconda3/include/qt/QtGui/qpen.h \
-  /home/josue/anaconda3/include/qt/QtGui/qabstracttextdocumentlayout.h \
-  /home/josue/anaconda3/include/qt/QtGui/qtextlayout.h \
-  /home/josue/anaconda3/include/qt/QtGui/qevent.h \
-  /home/josue/anaconda3/include/qt/QtCore/qset.h \
-  /home/josue/anaconda3/include/qt/QtCore/qfile.h \
-  /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h \
-  /home/josue/anaconda3/include/qt/QtGui/qvector2d.h \
-  /home/josue/anaconda3/include/qt/QtGui/qtouchdevice.h \
-  /home/josue/anaconda3/include/qt/QtGui/qglyphrun.h \
-  /home/josue/anaconda3/include/qt/QtGui/qrawfont.h \
-  /home/josue/anaconda3/include/qt/QtGui/qfontdatabase.h \
+  /home/josue/anaconda3/include/qt/QtGui/qtextoption.h \
   /home/josue/anaconda3/include/qt/QtWidgets/QPushButton \
   /home/josue/anaconda3/include/qt/QtWidgets/qpushbutton.h \
   /home/josue/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
   /home/josue/anaconda3/include/qt/QtGui/qicon.h \
-  /home/josue/anaconda3/include/qt/QtWidgets/QWidget
+  /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
+  /home/josue/anaconda3/include/qt/QtGui/QRegularExpressionValidator \
+  /home/josue/anaconda3/include/qt/QtGui/qvalidator.h \
+  /home/josue/anaconda3/include/qt/QtWidgets/QMessageBox \
+  /home/josue/anaconda3/include/qt/QtWidgets/qmessagebox.h \
+  /home/josue/anaconda3/include/qt/QtWidgets/qdialog.h
 
 CMakeFiles/Inicio_sesion.dir/welcomewindow.cpp.o: /home/josue/Inicio_sesion/welcomewindow.cpp \
   /usr/include/stdc-predef.h \
@@ -1725,26 +1746,6 @@ Inicio_sesion_autogen/include/ui_welcomewindow.h:
 
 /home/josue/Inicio_sesion/welcomewindow.cpp:
 
-/home/josue/anaconda3/include/qt/QtGui/qrawfont.h:
-
-/home/josue/anaconda3/include/qt/QtGui/qtouchdevice.h:
-
-/home/josue/anaconda3/include/qt/QtCore/qfiledevice.h:
-
-/home/josue/anaconda3/include/qt/QtCore/qfile.h:
-
-/home/josue/anaconda3/include/qt/QtGui/qabstracttextdocumentlayout.h:
-
-/home/josue/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h:
-
-/home/josue/anaconda3/include/qt/QtWidgets/qtextedit.h:
-
-/home/josue/anaconda3/include/qt/QtWidgets/qplaintextedit.h:
-
-/home/josue/anaconda3/include/qt/QtGui/qfontdatabase.h:
-
-/home/josue/anaconda3/include/qt/QtWidgets/QPlainTextEdit:
-
 /home/josue/anaconda3/include/qt/QtCore/qregularexpression.h:
 
 /home/josue/anaconda3/include/qt/QtCore/qcalendar.h:
@@ -1783,12 +1784,6 @@ Inicio_sesion_autogen/include/ui_welcomewindow.h:
 
 Inicio_sesion_autogen/include/ui_mainwindow.h:
 
-/home/josue/anaconda3/include/qt/QtCore/qmap.h:
-
-/home/josue/anaconda3/include/qt/QtCore/qvariant.h:
-
-/home/josue/anaconda3/include/qt/QtCore/qlocale.h:
-
 /home/josue/anaconda3/include/qt/QtGui/qinputmethod.h:
 
 /home/josue/anaconda3/include/qt/QtGui/qguiapplication.h:
@@ -1804,6 +1799,20 @@ Inicio_sesion_autogen/include/ui_mainwindow.h:
 /home/josue/Inicio_sesion/main.cpp:
 
 Inicio_sesion_autogen/EWIEGA46WW/moc_welcomewindow.cpp:
+
+/home/josue/anaconda3/include/qt/QtCore/QString:
+
+/home/josue/anaconda3/include/qt/QtCore/qmap.h:
+
+/home/josue/anaconda3/include/qt/QtCore/qvariant.h:
+
+/home/josue/anaconda3/include/qt/QtCore/qlocale.h:
+
+/home/josue/anaconda3/include/qt/QtCore/qtextstream.h:
+
+/home/josue/anaconda3/include/qt/QtCore/qfiledevice.h:
+
+/home/josue/anaconda3/include/qt/QtCore/qfile.h:
 
 /home/josue/Inicio_sesion/welcomewindow.h:
 
@@ -2063,8 +2072,6 @@ Inicio_sesion_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
-/home/josue/anaconda3/include/qt/QtGui/qvector2d.h:
-
 /home/josue/anaconda3/include/qt/QtCore/qmargins.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
@@ -2229,8 +2236,6 @@ Inicio_sesion_autogen/include/ui_vista_user.h:
 
 /usr/include/c++/11/bits/stl_construct.h:
 
-/home/josue/anaconda3/include/qt/QtGui/qevent.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /home/josue/anaconda3/include/qt/QtCore/qversiontagging.h:
@@ -2240,6 +2245,8 @@ Inicio_sesion_autogen/include/ui_vista_user.h:
 Inicio_sesion_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+
+/home/josue/anaconda3/include/qt/QtCore/QTextStream:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
@@ -2259,8 +2266,6 @@ Inicio_sesion_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/home/josue/anaconda3/include/qt/QtCore/qset.h:
-
 /home/josue/Inicio_sesion/mainwindow.cpp:
 
 /usr/include/c++/11/bits/predefined_ops.h:
@@ -2270,8 +2275,6 @@ Inicio_sesion_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 /usr/include/c++/11/bits/nested_exception.h:
 
 /home/josue/anaconda3/include/qt/QtCore/qtcore-config.h:
-
-/home/josue/anaconda3/include/qt/QtGui/qglyphrun.h:
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
 
@@ -2309,9 +2312,9 @@ Inicio_sesion_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
-/home/josue/anaconda3/include/qt/QtGui/qtextlayout.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/home/josue/anaconda3/include/qt/QtGui/QRegularExpressionValidator:
 
 /usr/include/alloca.h:
 
@@ -2369,6 +2372,8 @@ Inicio_sesion_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /usr/include/c++/11/bits/list.tcc:
 
+/home/josue/anaconda3/include/qt/QtCore/QFile:
+
 /home/josue/anaconda3/include/qt/QtCore/qchar.h:
 
 /usr/include/c++/11/bits/exception_ptr.h:
@@ -2398,8 +2403,6 @@ Inicio_sesion_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
 /usr/include/c++/11/string:
-
-/home/josue/anaconda3/include/qt/QtGui/qtextdocument.h:
 
 /usr/include/c++/11/bits/char_traits.h:
 
@@ -2478,8 +2481,6 @@ Inicio_sesion_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 Inicio_sesion_autogen/EWIEGA46WW/moc_vista_user.cpp:
 
 /home/josue/anaconda3/include/qt/QtCore/qpair.h:
-
-/home/josue/anaconda3/include/qt/QtCore/qurl.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 

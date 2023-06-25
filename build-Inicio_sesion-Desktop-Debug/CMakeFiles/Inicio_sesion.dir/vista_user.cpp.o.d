@@ -267,10 +267,19 @@ CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o: \
  /home/josue/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
  /home/josue/anaconda3/include/qt/QtGui/qcursor.h \
  /home/josue/anaconda3/include/qt/QtGui/qkeysequence.h \
+ /home/josue/anaconda3/include/qt/QtCore/QFile \
+ /home/josue/anaconda3/include/qt/QtCore/qfile.h \
+ /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h \
+ /home/josue/anaconda3/include/qt/QtCore/QTextStream \
+ /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
+ /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
+ /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
+ /home/josue/anaconda3/include/qt/QtCore/qmap.h \
+ /home/josue/anaconda3/include/qt/QtCore/QString \
+ /home/josue/anaconda3/include/qt/QtCore/qstring.h \
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/include/ui_vista_user.h \
  /home/josue/anaconda3/include/qt/QtCore/QVariant \
  /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
- /home/josue/anaconda3/include/qt/QtCore/qmap.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QApplication \
  /home/josue/anaconda3/include/qt/QtWidgets/qapplication.h \
  /home/josue/anaconda3/include/qt/QtCore/qcoreapplication.h \
@@ -278,8 +287,6 @@ CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o: \
  /home/josue/anaconda3/include/qt/QtCore/qeventloop.h \
  /home/josue/anaconda3/include/qt/QtGui/qguiapplication.h \
  /home/josue/anaconda3/include/qt/QtGui/qinputmethod.h \
- /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
- /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QDateEdit \
  /home/josue/anaconda3/include/qt/QtWidgets/qdatetimeedit.h \
  /home/josue/anaconda3/include/qt/QtCore/qdatetime.h \
@@ -303,4 +310,13 @@ CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o: \
  /home/josue/anaconda3/include/qt/QtGui/qicon.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
  /home/josue/anaconda3/include/qt/QtGui/QRegularExpressionValidator \
- /home/josue/anaconda3/include/qt/QtGui/qvalidator.h
+ /home/josue/anaconda3/include/qt/QtGui/qvalidator.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QMessageBox \
+ /home/josue/anaconda3/include/qt/QtWidgets/qmessagebox.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qdialog.h \
+ /home/josue/Inicio_sesion/mainwindow.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QMainWindow \
+ /home/josue/anaconda3/include/qt/QtWidgets/qmainwindow.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qtabwidget.h \
+ /home/josue/Inicio_sesion/welcomewindow.h \
+ /home/josue/Inicio_sesion/vista_user.h

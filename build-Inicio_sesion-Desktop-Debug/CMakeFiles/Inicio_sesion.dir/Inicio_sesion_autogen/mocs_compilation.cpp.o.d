@@ -276,6 +276,16 @@ CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o: \
  /home/josue/Inicio_sesion/vista_user.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
  /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h \
+ /home/josue/anaconda3/include/qt/QtCore/QFile \
+ /home/josue/anaconda3/include/qt/QtCore/qfile.h \
+ /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h \
+ /home/josue/anaconda3/include/qt/QtCore/QTextStream \
+ /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
+ /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
+ /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
+ /home/josue/anaconda3/include/qt/QtCore/qmap.h \
+ /home/josue/anaconda3/include/qt/QtCore/QString \
+ /home/josue/anaconda3/include/qt/QtCore/qstring.h \
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_vista_user.cpp \
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/vista_user.h \
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_welcomewindow.cpp \
