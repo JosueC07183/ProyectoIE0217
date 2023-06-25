@@ -1,3 +1,26 @@
+/**
+ * @file vista_user.cpp
+ * @author En este archivo se las variables para crear los registros de los usuarios
+ * convencionales, que con ayuda del header vista_user.h se logra implementar algunas
+ * regex y omitar otros espacios para evitar complicaciones, la fecha de nacimiento por-
+ * ejemplo, ya que Qt tiene un widget especial para esto. Creadas las regex, por medio de 
+ * QString y los botones, lineEmail, linePass, linePass_2 y dateEdit, cuando se abre la
+ * ventana para escribir los datos del usuario normal, y luego se le pedirá una contraseña
+ * las cuales deben ser iguales, sino, no se podrá crear el registro. Luego, se hace un append
+ * y esto permitirá crear la cantidad de usuarios que se desee en un .txt, ahora, los datos de 
+ * los usuarios no se perderán, se van acumular en una lista. Después, la idea en desarrollo es 
+ * usar esta misma lista para que sea reconocida desde el mainWindow, por este motivo es que se
+ * usa un ReadOnly, pero esta idea aún sigue en desarrollo. Después cuando se le da en el boton 
+ * de salir, se cierra la ventana actual y se muestra el mainwindow.
+ * 
+ * @brief 
+ * @version 0.1
+ * @date 2023-06-25
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
 #include "vista_user.h"
 #include "ui_vista_user.h"
 #include <QRegularExpressionValidator>
@@ -23,15 +46,6 @@ Vista_User::~Vista_User()
 {
     delete ui;
 }
-
-/*void Vista_User::on_pushButton_clicked()
-{
-    close();
-// Esto sirve para regresar a la ventana principal.
-    MainWindow *mainWindow = new MainWindow();
-    mainWindow->show();
-
-}*/
 
 // guardar los registros de los clientes en un txt.
 void Vista_User::on_pushButton_Registro_clicked()

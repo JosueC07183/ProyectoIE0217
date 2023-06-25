@@ -1,3 +1,13 @@
+/**
+ * @file welcomewindow.h
+ * @author Josue Salmeron Cordoba
+ * @brief Este header unicamente posee la clase basica de la interfaz prinicipal.
+ * @version 0.1
+ * @date 2023-06-25
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #ifndef WELCOMEWINDOW_H
 #define WELCOMEWINDOW_H
 

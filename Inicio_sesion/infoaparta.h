@@ -1,3 +1,13 @@
+/**
+ * @file infoaparta.h
+ * @author Josue Salmeron Córdoba
+ * @brief Este header contiene los elementos de la interfaz InfoAparta.
+ * @version 0.1
+ * @date 2023-06-25
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #ifndef INFOAPARTA_H
 #define INFOAPARTA_H
 

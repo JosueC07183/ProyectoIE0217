@@ -1,3 +1,14 @@
+/**
+ * @file vista_user.h
+ * @author Josue Salmeron Cordoba
+ * @brief Este header contiene los principales slots que se usarán en el archivo de 
+ * funciones. También posee las instancias de las regex implementadas.
+ * @version 0.1
+ * @date 2023-06-25
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #ifndef VISTA_USER_H
 #define VISTA_USER_H
 
