@@ -139,13 +139,43 @@ CMakeFiles/Inicio_sesion.dir/vista_user.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Inicio_sesion.dir/vista_user.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/josue/Inicio_sesion/vista_user.cpp -o CMakeFiles/Inicio_sesion.dir/vista_user.cpp.s
 
+CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o: CMakeFiles/Inicio_sesion.dir/flags.make
+CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o: /home/josue/Inicio_sesion/windowuser.cpp
+CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o: CMakeFiles/Inicio_sesion.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o -MF CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o.d -o CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o -c /home/josue/Inicio_sesion/windowuser.cpp
+
+CMakeFiles/Inicio_sesion.dir/windowuser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Inicio_sesion.dir/windowuser.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/josue/Inicio_sesion/windowuser.cpp > CMakeFiles/Inicio_sesion.dir/windowuser.cpp.i
+
+CMakeFiles/Inicio_sesion.dir/windowuser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Inicio_sesion.dir/windowuser.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/josue/Inicio_sesion/windowuser.cpp -o CMakeFiles/Inicio_sesion.dir/windowuser.cpp.s
+
+CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o: CMakeFiles/Inicio_sesion.dir/flags.make
+CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o: /home/josue/Inicio_sesion/infoaparta.cpp
+CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o: CMakeFiles/Inicio_sesion.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o -MF CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o.d -o CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o -c /home/josue/Inicio_sesion/infoaparta.cpp
+
+CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/josue/Inicio_sesion/infoaparta.cpp > CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.i
+
+CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/josue/Inicio_sesion/infoaparta.cpp -o CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.s
+
 # Object files for target Inicio_sesion
 Inicio_sesion_OBJECTS = \
 "CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/Inicio_sesion.dir/main.cpp.o" \
 "CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o" \
 "CMakeFiles/Inicio_sesion.dir/welcomewindow.cpp.o" \
-"CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o"
+"CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o" \
+"CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o" \
+"CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o"
 
 # External object files for target Inicio_sesion
 Inicio_sesion_EXTERNAL_OBJECTS =
@@ -155,12 +185,14 @@ Inicio_sesion: CMakeFiles/Inicio_sesion.dir/main.cpp.o
 Inicio_sesion: CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o
 Inicio_sesion: CMakeFiles/Inicio_sesion.dir/welcomewindow.cpp.o
 Inicio_sesion: CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o
+Inicio_sesion: CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o
+Inicio_sesion: CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o
 Inicio_sesion: CMakeFiles/Inicio_sesion.dir/build.make
 Inicio_sesion: /home/josue/anaconda3/lib/libQt5Widgets.so.5.15.2
 Inicio_sesion: /home/josue/anaconda3/lib/libQt5Gui.so.5.15.2
 Inicio_sesion: /home/josue/anaconda3/lib/libQt5Core.so.5.15.2
 Inicio_sesion: CMakeFiles/Inicio_sesion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Inicio_sesion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Inicio_sesion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Inicio_sesion.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Inicio_sesion_autogen"
+  "Inicio_sesion_autogen/include/ui_infoaparta.h"
   "Inicio_sesion_autogen/include/ui_mainwindow.h"
   "Inicio_sesion_autogen/include/ui_vista_user.h"
   "Inicio_sesion_autogen/include/ui_welcomewindow.h"
+  "Inicio_sesion_autogen/include/ui_windowuser.h"
   "Inicio_sesion_autogen/mocs_compilation.cpp"
 )
 

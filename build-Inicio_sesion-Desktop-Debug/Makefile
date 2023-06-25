@@ -166,6 +166,30 @@ Inicio_sesion_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.s
 .PHONY : Inicio_sesion_autogen/mocs_compilation.cpp.s
 
+infoaparta.o: infoaparta.cpp.o
+.PHONY : infoaparta.o
+
+# target to build an object file
+infoaparta.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o
+.PHONY : infoaparta.cpp.o
+
+infoaparta.i: infoaparta.cpp.i
+.PHONY : infoaparta.i
+
+# target to preprocess a source file
+infoaparta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.i
+.PHONY : infoaparta.cpp.i
+
+infoaparta.s: infoaparta.cpp.s
+.PHONY : infoaparta.s
+
+# target to generate assembly for a file
+infoaparta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.s
+.PHONY : infoaparta.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -262,6 +286,30 @@ welcomewindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/welcomewindow.cpp.s
 .PHONY : welcomewindow.cpp.s
 
+windowuser.o: windowuser.cpp.o
+.PHONY : windowuser.o
+
+# target to build an object file
+windowuser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o
+.PHONY : windowuser.cpp.o
+
+windowuser.i: windowuser.cpp.i
+.PHONY : windowuser.i
+
+# target to preprocess a source file
+windowuser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/windowuser.cpp.i
+.PHONY : windowuser.cpp.i
+
+windowuser.s: windowuser.cpp.s
+.PHONY : windowuser.s
+
+# target to generate assembly for a file
+windowuser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/windowuser.cpp.s
+.PHONY : windowuser.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -275,6 +323,9 @@ help:
 	@echo "... Inicio_sesion_autogen/mocs_compilation.o"
 	@echo "... Inicio_sesion_autogen/mocs_compilation.i"
 	@echo "... Inicio_sesion_autogen/mocs_compilation.s"
+	@echo "... infoaparta.o"
+	@echo "... infoaparta.i"
+	@echo "... infoaparta.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -287,6 +338,9 @@ help:
 	@echo "... welcomewindow.o"
 	@echo "... welcomewindow.i"
 	@echo "... welcomewindow.s"
+	@echo "... windowuser.o"
+	@echo "... windowuser.i"
+	@echo "... windowuser.s"
 .PHONY : help
 
 

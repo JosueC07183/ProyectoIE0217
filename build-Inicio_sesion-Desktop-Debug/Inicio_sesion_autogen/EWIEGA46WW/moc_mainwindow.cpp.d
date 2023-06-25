@@ -1,5 +1,7 @@
 /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/josue/Inicio_sesion/mainwindow.h \
   /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/moc_predefs.h \
+  /home/josue/Inicio_sesion/infoaparta.h \
+  /home/josue/Inicio_sesion/mainwindow.h \
   /home/josue/Inicio_sesion/vista_user.h \
   /home/josue/Inicio_sesion/welcomewindow.h \
   /home/josue/anaconda3/include/qt/QtCore/QFile \

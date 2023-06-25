@@ -287,6 +287,7 @@ CMakeFiles/Inicio_sesion.dir/main.cpp.o: \
  /home/josue/anaconda3/include/qt/QtCore/qmap.h \
  /home/josue/anaconda3/include/qt/QtCore/QString \
  /home/josue/anaconda3/include/qt/QtCore/qstring.h \
+ /home/josue/Inicio_sesion/infoaparta.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QApplication \
  /home/josue/anaconda3/include/qt/QtWidgets/qapplication.h \
  /home/josue/anaconda3/include/qt/QtCore/qcoreapplication.h \

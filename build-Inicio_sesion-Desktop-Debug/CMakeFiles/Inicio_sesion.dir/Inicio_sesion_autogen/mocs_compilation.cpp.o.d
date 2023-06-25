@@ -1,7 +1,7 @@
 CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o: \
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_infoaparta.cpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -114,9 +114,9 @@ CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/mainwindow.h \
- /home/josue/anaconda3/include/qt/QtWidgets/QMainWindow \
- /home/josue/anaconda3/include/qt/QtWidgets/qmainwindow.h \
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/infoaparta.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
+ /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h \
  /home/josue/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
  /home/josue/anaconda3/include/qt/QtGui/qtguiglobal.h \
  /home/josue/anaconda3/include/qt/QtCore/qglobal.h \
@@ -155,7 +155,6 @@ CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o: \
  /home/josue/anaconda3/include/qt/QtCore/qversiontagging.h \
  /home/josue/anaconda3/include/qt/QtGui/qtgui-config.h \
  /home/josue/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
- /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h \
  /home/josue/anaconda3/include/qt/QtGui/qwindowdefs.h \
  /home/josue/anaconda3/include/qt/QtCore/qobjectdefs.h \
  /home/josue/anaconda3/include/qt/QtCore/qnamespace.h \
@@ -267,6 +266,10 @@ CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o: \
  /home/josue/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
  /home/josue/anaconda3/include/qt/QtGui/qcursor.h \
  /home/josue/anaconda3/include/qt/QtGui/qkeysequence.h \
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/mainwindow.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QMainWindow \
+ /home/josue/anaconda3/include/qt/QtWidgets/qmainwindow.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h \
  /home/josue/anaconda3/include/qt/QtWidgets/qtabwidget.h \
  /home/josue/anaconda3/include/qt/QtGui/qicon.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QMessageBox \
@@ -274,8 +277,6 @@ CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o: \
  /home/josue/anaconda3/include/qt/QtWidgets/qdialog.h \
  /home/josue/Inicio_sesion/welcomewindow.h \
  /home/josue/Inicio_sesion/vista_user.h \
- /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
- /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h \
  /home/josue/anaconda3/include/qt/QtCore/QFile \
  /home/josue/anaconda3/include/qt/QtCore/qfile.h \
  /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h \
@@ -286,7 +287,12 @@ CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o: \
  /home/josue/anaconda3/include/qt/QtCore/qmap.h \
  /home/josue/anaconda3/include/qt/QtCore/QString \
  /home/josue/anaconda3/include/qt/QtCore/qstring.h \
+ /home/josue/Inicio_sesion/infoaparta.h \
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/mainwindow.h \
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_vista_user.cpp \
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/vista_user.h \
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_welcomewindow.cpp \
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/welcomewindow.h
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/welcomewindow.h \
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_windowuser.cpp \
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/windowuser.h

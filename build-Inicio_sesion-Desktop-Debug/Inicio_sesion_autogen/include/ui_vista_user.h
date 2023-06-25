@@ -27,7 +27,7 @@ public:
     QDateEdit *dateEdit;
     QPushButton *pushButton_Registro;
     QLineEdit *lineEmail;
-    QPushButton *pushButton;
+    QPushButton *Salir_2;
     QLineEdit *linePass;
     QLineEdit *linePass_2;
 
@@ -69,14 +69,14 @@ public:
         lineEmail = new QLineEdit(Vista_User);
         lineEmail->setObjectName(QString::fromUtf8("lineEmail"));
         lineEmail->setGeometry(QRect(50, 80, 351, 31));
-        pushButton = new QPushButton(Vista_User);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(530, 380, 71, 41));
+        Salir_2 = new QPushButton(Vista_User);
+        Salir_2->setObjectName(QString::fromUtf8("Salir_2"));
+        Salir_2->setGeometry(QRect(530, 380, 71, 41));
         QFont font3;
         font3.setPointSize(17);
         font3.setBold(true);
         font3.setWeight(75);
-        pushButton->setFont(font3);
+        Salir_2->setFont(font3);
         linePass = new QLineEdit(Vista_User);
         linePass->setObjectName(QString::fromUtf8("linePass"));
         linePass->setGeometry(QRect(50, 130, 351, 31));
@@ -98,7 +98,7 @@ public:
         label_2->setText(QCoreApplication::translate("Vista_User", "Fecha de nacimiento", nullptr));
         pushButton_Registro->setText(QCoreApplication::translate("Vista_User", "Registrarse", nullptr));
         lineEmail->setPlaceholderText(QCoreApplication::translate("Vista_User", "Correo", nullptr));
-        pushButton->setText(QCoreApplication::translate("Vista_User", "Salir", nullptr));
+        Salir_2->setText(QCoreApplication::translate("Vista_User", "Salir", nullptr));
         linePass->setPlaceholderText(QCoreApplication::translate("Vista_User", "Contrase\303\261a", nullptr));
         linePass_2->setPlaceholderText(QCoreApplication::translate("Vista_User", "Repite Contrase\303\261a", nullptr));
     } // retranslateUi

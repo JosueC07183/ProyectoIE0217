@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Vista_User_t {
-    QByteArrayData data[5];
-    char stringdata0[84];
+    QByteArrayData data[7];
+    char stringdata0[107];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -33,15 +33,18 @@ struct qt_meta_stringdata_Vista_User_t {
 static const qt_meta_stringdata_Vista_User_t qt_meta_stringdata_Vista_User = {
     {
 QT_MOC_LITERAL(0, 0, 10), // "Vista_User"
-QT_MOC_LITERAL(1, 11, 21), // "on_pushButton_clicked"
-QT_MOC_LITERAL(2, 33, 0), // ""
-QT_MOC_LITERAL(3, 34, 30), // "on_pushButton_Registro_clicked"
-QT_MOC_LITERAL(4, 65, 18) // "on_Salir_2_clicked"
+QT_MOC_LITERAL(1, 11, 30), // "on_pushButton_Registro_clicked"
+QT_MOC_LITERAL(2, 42, 0), // ""
+QT_MOC_LITERAL(3, 43, 18), // "on_Salir_2_clicked"
+QT_MOC_LITERAL(4, 62, 34), // "on_lineEmail_cursorPositionCh..."
+QT_MOC_LITERAL(5, 97, 4), // "arg1"
+QT_MOC_LITERAL(6, 102, 4) // "arg2"
 
     },
-    "Vista_User\0on_pushButton_clicked\0\0"
-    "on_pushButton_Registro_clicked\0"
-    "on_Salir_2_clicked"
+    "Vista_User\0on_pushButton_Registro_clicked\0"
+    "\0on_Salir_2_clicked\0"
+    "on_lineEmail_cursorPositionChanged\0"
+    "arg1\0arg2"
 };
 #undef QT_MOC_LITERAL
 
@@ -61,12 +64,12 @@ static const uint qt_meta_data_Vista_User[] = {
  // slots: name, argc, parameters, tag, flags
        1,    0,   29,    2, 0x08 /* Private */,
        3,    0,   30,    2, 0x08 /* Private */,
-       4,    0,   31,    2, 0x08 /* Private */,
+       4,    2,   31,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void,
+    QMetaType::Void, QMetaType::Int, QMetaType::Int,    5,    6,
 
        0        // eod
 };
@@ -77,12 +80,12 @@ void Vista_User::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<Vista_User *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->on_pushButton_clicked(); break;
-        case 1: _t->on_pushButton_Registro_clicked(); break;
+        case 0: _t->on_pushButton_Registro_clicked(); break;
+        case 1: _t->on_Salir_2_clicked(); break;
+    //    case 2: _t->on_lineEmail_cursorPositionChanged((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
         default: ;
         }
     }
-    Q_UNUSED(_a);
 }
 
 QT_INIT_METAOBJECT const QMetaObject Vista_User::staticMetaObject = { {

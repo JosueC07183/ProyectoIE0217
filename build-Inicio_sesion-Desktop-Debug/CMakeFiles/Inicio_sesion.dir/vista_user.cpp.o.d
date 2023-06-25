@@ -319,4 +319,6 @@ CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o: \
  /home/josue/anaconda3/include/qt/QtWidgets/qmainwindow.h \
  /home/josue/anaconda3/include/qt/QtWidgets/qtabwidget.h \
  /home/josue/Inicio_sesion/welcomewindow.h \
- /home/josue/Inicio_sesion/vista_user.h
+ /home/josue/Inicio_sesion/vista_user.h \
+ /home/josue/Inicio_sesion/infoaparta.h \
+ /home/josue/Inicio_sesion/mainwindow.h

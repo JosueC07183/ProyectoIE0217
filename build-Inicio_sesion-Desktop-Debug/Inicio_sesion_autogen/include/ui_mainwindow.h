@@ -59,7 +59,7 @@ public:
         label_2->setFont(font);
         lineEdit_User_name = new QLineEdit(groupBox);
         lineEdit_User_name->setObjectName(QString::fromUtf8("lineEdit_User_name"));
-        lineEdit_User_name->setGeometry(QRect(300, 100, 200, 41));
+        lineEdit_User_name->setGeometry(QRect(300, 100, 231, 41));
         QFont font1;
         font1.setPointSize(20);
         font1.setBold(true);
@@ -67,7 +67,7 @@ public:
         lineEdit_User_name->setFont(font1);
         lineEdit_Password = new QLineEdit(groupBox);
         lineEdit_Password->setObjectName(QString::fromUtf8("lineEdit_Password"));
-        lineEdit_Password->setGeometry(QRect(300, 190, 200, 41));
+        lineEdit_Password->setGeometry(QRect(300, 190, 231, 41));
         lineEdit_Password->setFont(font1);
         lineEdit_Password->setEchoMode(QLineEdit::Password);
         pushButton_Login = new QPushButton(groupBox);
