@@ -1,0 +1,4 @@
+/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles/Inicio_sesion.dir
+/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles/Inicio_sesion_autogen.dir

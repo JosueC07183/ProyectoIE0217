@@ -1,0 +1,3 @@
+Nombre de usuario: yerlin
+Contrasena: 1234
+Fecha nacimiento: 1/1/00

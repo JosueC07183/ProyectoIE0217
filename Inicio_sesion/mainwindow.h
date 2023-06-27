@@ -1,15 +1,3 @@
-/**
- * @file mainwindow.h
- * @author Este header tiene las referencias de los botones que se van a usar en la interfaz,
- * que ya fueron llamados desde mainwindow.cpp
- * @brief 
- * @version 0.1
- * @date 2023-06-25
- * 
- * @copyright Copyright (c) 2023
- * 
- */
-
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
