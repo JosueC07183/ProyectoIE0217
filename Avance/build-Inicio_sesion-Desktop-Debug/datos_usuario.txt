@@ -1,3 +1,9 @@
 Nombre de usuario: yerlin
 Contrasena: 1234
 Fecha nacimiento: 1/1/00
+Nombre de usuario: joel.campbell
+Contrasena: 1234
+Fecha nacimiento: 12/6/91
+Nombre de usuario: ema.quesada@ucr.ac.cr
+Contrasena: ataquee
+Fecha nacimiento: 19/10/20

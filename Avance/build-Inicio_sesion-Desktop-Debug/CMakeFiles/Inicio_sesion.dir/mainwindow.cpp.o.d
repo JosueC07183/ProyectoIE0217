@@ -319,4 +319,9 @@ CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o: \
  /home/josue/Inicio_sesion/vista_user.h \
  /home/josue/Inicio_sesion/windowuser.h \
  /home/josue/Inicio_sesion/infoaparta.h \
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/include/./ui_infoaparta.h
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/include/./ui_infoaparta.h \
+ /home/josue/anaconda3/include/qt/QtCore/QDebug \
+ /home/josue/anaconda3/include/qt/QtCore/qdebug.h \
+ /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
+ /home/josue/anaconda3/include/qt/QtCore/qset.h \
+ /home/josue/anaconda3/include/qt/QtCore/qcontiguouscache.h

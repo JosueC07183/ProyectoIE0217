@@ -1402,7 +1402,12 @@ CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o: /home/josue/Inicio_sesion/mainwin
   /home/josue/Inicio_sesion/vista_user.h \
   /home/josue/Inicio_sesion/windowuser.h \
   /home/josue/Inicio_sesion/infoaparta.h \
-  Inicio_sesion_autogen/include/ui_infoaparta.h
+  Inicio_sesion_autogen/include/ui_infoaparta.h \
+  /home/josue/anaconda3/include/qt/QtCore/QDebug \
+  /home/josue/anaconda3/include/qt/QtCore/qdebug.h \
+  /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
+  /home/josue/anaconda3/include/qt/QtCore/qset.h \
+  /home/josue/anaconda3/include/qt/QtCore/qcontiguouscache.h
 
 CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o: /home/josue/Inicio_sesion/vista_user.cpp \
   /usr/include/stdc-predef.h \
@@ -2459,6 +2464,10 @@ Inicio_sesion_autogen/include/ui_welcomewindow.h:
 
 /home/josue/Inicio_sesion/vista_user.cpp:
 
+/home/josue/anaconda3/include/qt/QtCore/qcontiguouscache.h:
+
+/home/josue/anaconda3/include/qt/QtCore/qdebug.h:
+
 /home/josue/anaconda3/include/qt/QtWidgets/qstatusbar.h:
 
 /home/josue/anaconda3/include/qt/QtWidgets/QStatusBar:
@@ -2498,6 +2507,8 @@ Inicio_sesion_autogen/include/ui_mainwindow.h:
 /home/josue/anaconda3/include/qt/QtWidgets/QApplication:
 
 /home/josue/anaconda3/include/qt/QtCore/QVariant:
+
+/home/josue/anaconda3/include/qt/QtCore/QDebug:
 
 Inicio_sesion_autogen/include/ui_infoaparta.h:
 
@@ -2976,6 +2987,8 @@ Inicio_sesion_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 /usr/include/c++/11/vector:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/home/josue/anaconda3/include/qt/QtCore/qset.h:
 
 /home/josue/Inicio_sesion/mainwindow.cpp:
 
