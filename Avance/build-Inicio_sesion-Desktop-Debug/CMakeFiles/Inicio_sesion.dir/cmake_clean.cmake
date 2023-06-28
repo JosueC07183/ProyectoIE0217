@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o"
   "CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o.d"
+  "CMakeFiles/Inicio_sesion.dir/infouser.cpp.o"
+  "CMakeFiles/Inicio_sesion.dir/infouser.cpp.o.d"
   "CMakeFiles/Inicio_sesion.dir/main.cpp.o"
   "CMakeFiles/Inicio_sesion.dir/main.cpp.o.d"
   "CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o"

@@ -293,4 +293,20 @@ CMakeFiles/Inicio_sesion.dir/welcomewindow.cpp.o: \
  /home/josue/anaconda3/include/qt/QtWidgets/QStatusBar \
  /home/josue/anaconda3/include/qt/QtWidgets/qstatusbar.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
- /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h
+ /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h \
+ /home/josue/Inicio_sesion/mainwindow.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QMessageBox \
+ /home/josue/anaconda3/include/qt/QtWidgets/qmessagebox.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qdialog.h \
+ /home/josue/Inicio_sesion/welcomewindow.h \
+ /home/josue/Inicio_sesion/vista_user.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
+ /home/josue/anaconda3/include/qt/QtCore/QFile \
+ /home/josue/anaconda3/include/qt/QtCore/qfile.h \
+ /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h \
+ /home/josue/anaconda3/include/qt/QtCore/QTextStream \
+ /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
+ /home/josue/anaconda3/include/qt/QtCore/QString \
+ /home/josue/anaconda3/include/qt/QtCore/qstring.h \
+ /home/josue/Inicio_sesion/infoaparta.h \
+ /home/josue/Inicio_sesion/infouser.h
