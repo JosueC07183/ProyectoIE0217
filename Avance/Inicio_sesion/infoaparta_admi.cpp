@@ -44,6 +44,13 @@ void InfoAparta_Admi::on_pushButton_clicked()
     QString servPublico = ui->lineEdit_ServPub->text();
     QString numPrecio = ui->lineEdit_Precio->text();
     QFile file("datos_apartamenos.txt");
+    // Con esto se arregla la pulga de guardos registros con espacios vacíos.
+    if (numCuartos.isEmpty() && numPisos.isEmpty() && descDetails.isEmpty() &&
+            servCochera.isEmpty() && servPublico.isEmpty() && numPrecio.isEmpty()) {
+            QMessageBox::warning(this, "Error", "hay campos vacios.");
+            return;  // Salir del método sin guardar los registros
+        }
+
     if (file.open(QIODevice::Append | QIODevice::Text))
     {
         // Crear un objeto QTextStream para escribir en el archivo
