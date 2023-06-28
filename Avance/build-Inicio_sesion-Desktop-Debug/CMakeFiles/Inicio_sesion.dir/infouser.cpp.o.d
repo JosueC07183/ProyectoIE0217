@@ -280,6 +280,12 @@ CMakeFiles/Inicio_sesion.dir/infouser.cpp.o: \
  /home/josue/anaconda3/include/qt/QtGui/qinputmethod.h \
  /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
  /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QHBoxLayout \
+ /home/josue/anaconda3/include/qt/QtWidgets/qboxlayout.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qlayout.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qlayoutitem.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qboxlayout.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qgridlayout.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QLabel \
  /home/josue/anaconda3/include/qt/QtWidgets/qlabel.h \
  /home/josue/anaconda3/include/qt/QtWidgets/qframe.h \
@@ -288,6 +294,10 @@ CMakeFiles/Inicio_sesion.dir/infouser.cpp.o: \
  /home/josue/anaconda3/include/qt/QtWidgets/qpushbutton.h \
  /home/josue/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
  /home/josue/anaconda3/include/qt/QtGui/qicon.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QSplitter \
+ /home/josue/anaconda3/include/qt/QtWidgets/qsplitter.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QStackedWidget \
+ /home/josue/anaconda3/include/qt/QtWidgets/qstackedwidget.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QTextBrowser \
  /home/josue/anaconda3/include/qt/QtWidgets/qtextbrowser.h \
  /home/josue/anaconda3/include/qt/QtWidgets/qtextedit.h \
@@ -310,4 +320,21 @@ CMakeFiles/Inicio_sesion.dir/infouser.cpp.o: \
  /home/josue/Inicio_sesion/welcomewindow.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QMainWindow \
  /home/josue/anaconda3/include/qt/QtWidgets/qmainwindow.h \
- /home/josue/anaconda3/include/qt/QtWidgets/qtabwidget.h
+ /home/josue/anaconda3/include/qt/QtWidgets/qtabwidget.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QListWidgetItem \
+ /home/josue/anaconda3/include/qt/QtWidgets/qlistwidget.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qlistview.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qabstractitemview.h \
+ /home/josue/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
+ /home/josue/anaconda3/include/qt/QtCore/qitemselectionmodel.h \
+ /home/josue/anaconda3/include/qt/QtCore/qset.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qstyleoption.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qabstractspinbox.h \
+ /home/josue/anaconda3/include/qt/QtGui/qvalidator.h \
+ /home/josue/anaconda3/include/qt/QtCore/qregularexpression.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qslider.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qabstractslider.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qstyle.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qtabbar.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qrubberband.h

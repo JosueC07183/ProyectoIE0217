@@ -1,4 +1,3 @@
-
 #include "infoaparta.h"
 #include "ui_infoaparta.h"
 //#include "mainwindow.cpp"

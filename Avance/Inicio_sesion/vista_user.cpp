@@ -24,14 +24,7 @@ Vista_User::~Vista_User()
     delete ui;
 }
 
-/*void Vista_User::on_pushButton_clicked()
-{
-    close();
-// Esto sirve para regresar a la ventana principal.
-    MainWindow *mainWindow = new MainWindow();
-    mainWindow->show();
 
-}*/
 
 // guardar los registros de los clientes en un txt.
 void Vista_User::on_pushButton_Registro_clicked()

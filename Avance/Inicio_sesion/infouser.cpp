@@ -4,6 +4,7 @@
 #include <QTextStream>
 #include <QMessageBox>
 #include "welcomewindow.h"
+#include <QListWidgetItem>
 InfoUser::InfoUser(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::InfoUser)
@@ -30,8 +31,8 @@ void InfoUser::on_pushButton_clicked()
 
 void InfoUser::on_pushButton_2_clicked()
 {
-    close();
     WelcomeWindow *welcomewin = new WelcomeWindow;
     welcomewin->show();
+    close();
 }
 

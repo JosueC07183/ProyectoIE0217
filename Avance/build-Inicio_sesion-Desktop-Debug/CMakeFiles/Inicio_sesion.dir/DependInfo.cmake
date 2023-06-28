@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/mocs_compilation.cpp" "CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o.d"
   "/home/josue/Inicio_sesion/infoaparta.cpp" "CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o" "gcc" "CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o.d"
+  "/home/josue/Inicio_sesion/infoaparta_admi.cpp" "CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.o" "gcc" "CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.o.d"
   "/home/josue/Inicio_sesion/infouser.cpp" "CMakeFiles/Inicio_sesion.dir/infouser.cpp.o" "gcc" "CMakeFiles/Inicio_sesion.dir/infouser.cpp.o.d"
   "/home/josue/Inicio_sesion/main.cpp" "CMakeFiles/Inicio_sesion.dir/main.cpp.o" "gcc" "CMakeFiles/Inicio_sesion.dir/main.cpp.o.d"
   "/home/josue/Inicio_sesion/mainwindow.cpp" "CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o.d"

@@ -28,6 +28,7 @@ public:
     QPushButton *pushButton_5;
     QPushButton *pushButton_3;
     QPushButton *pushButton_2;
+    QPushButton *pushButton_4;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *WelcomeWindow)
@@ -51,7 +52,7 @@ public:
         label_Title->setFont(font);
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(100, 170, 181, 91));
+        pushButton->setGeometry(QRect(90, 130, 181, 91));
         QFont font1;
         font1.setFamily(QString::fromUtf8("Lobster Two"));
         font1.setPointSize(18);
@@ -64,7 +65,7 @@ public:
 "}"));
         pushButton_5 = new QPushButton(centralwidget);
         pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
-        pushButton_5->setGeometry(QRect(450, 170, 201, 91));
+        pushButton_5->setGeometry(QRect(450, 130, 201, 91));
         pushButton_5->setFont(font1);
         pushButton_5->setStyleSheet(QString::fromUtf8("QPushButton\n"
 "{\n"
@@ -74,7 +75,7 @@ public:
 "}"));
         pushButton_3 = new QPushButton(centralwidget);
         pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-        pushButton_3->setGeometry(QRect(270, 290, 221, 91));
+        pushButton_3->setGeometry(QRect(70, 280, 221, 91));
         pushButton_3->setFont(font1);
         pushButton_3->setStyleSheet(QString::fromUtf8("QPushButton\n"
 "{\n"
@@ -84,13 +85,23 @@ public:
 "}"));
         pushButton_2 = new QPushButton(centralwidget);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(690, 350, 91, 51));
+        pushButton_2->setGeometry(QRect(710, 350, 91, 51));
         QFont font2;
         font2.setFamily(QString::fromUtf8("Lobster Two"));
         pushButton_2->setFont(font2);
         pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton\n"
 "{\n"
 "background-color:rgb(255, 26, 26);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
+        pushButton_4 = new QPushButton(centralwidget);
+        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
+        pushButton_4->setGeometry(QRect(410, 280, 271, 91));
+        pushButton_4->setFont(font1);
+        pushButton_4->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(255, 85, 0);\n"
 "color:black;\n"
 "border:circular\n"
 "}"));
@@ -110,8 +121,9 @@ public:
         label_Title->setText(QCoreApplication::translate("WelcomeWindow", "        Bosques de Cristo Rey", nullptr));
         pushButton->setText(QCoreApplication::translate("WelcomeWindow", "A\303\261adir apartamento", nullptr));
         pushButton_5->setText(QCoreApplication::translate("WelcomeWindow", "Eliminar apartamento", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("WelcomeWindow", "Ver informaci\303\263n actual", nullptr));
+        pushButton_3->setText(QCoreApplication::translate("WelcomeWindow", "Ver informaci\303\263n usuarios", nullptr));
         pushButton_2->setText(QCoreApplication::translate("WelcomeWindow", "Salir", nullptr));
+        pushButton_4->setText(QCoreApplication::translate("WelcomeWindow", "Ver informaci\303\263n Apartamentos", nullptr));
     } // retranslateUi
 
 };

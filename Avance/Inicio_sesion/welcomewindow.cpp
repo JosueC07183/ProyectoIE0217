@@ -2,6 +2,7 @@
 #include "ui_welcomewindow.h"
 #include "mainwindow.h"
 #include "infouser.h"
+#include "infoaparta_admi.h"
 WelcomeWindow::WelcomeWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::WelcomeWindow)
@@ -27,8 +28,16 @@ void WelcomeWindow::on_pushButton_2_clicked()
 
 void WelcomeWindow::on_pushButton_3_clicked()
 {
+    close();
     InfoUser *mostrarInfoUser = new InfoUser;
     mostrarInfoUser->show();
 
 }
 
+// Este boton servirá para añadir apartamentos.
+void WelcomeWindow::on_pushButton_clicked()
+{
+    InfoAparta_Admi *new_Aparta = new InfoAparta_Admi();
+    new_Aparta->show();
+    close();
+}

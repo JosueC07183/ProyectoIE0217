@@ -190,6 +190,30 @@ infoaparta.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.s
 .PHONY : infoaparta.cpp.s
 
+infoaparta_admi.o: infoaparta_admi.cpp.o
+.PHONY : infoaparta_admi.o
+
+# target to build an object file
+infoaparta_admi.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.o
+.PHONY : infoaparta_admi.cpp.o
+
+infoaparta_admi.i: infoaparta_admi.cpp.i
+.PHONY : infoaparta_admi.i
+
+# target to preprocess a source file
+infoaparta_admi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.i
+.PHONY : infoaparta_admi.cpp.i
+
+infoaparta_admi.s: infoaparta_admi.cpp.s
+.PHONY : infoaparta_admi.s
+
+# target to generate assembly for a file
+infoaparta_admi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.s
+.PHONY : infoaparta_admi.cpp.s
+
 infouser.o: infouser.cpp.o
 .PHONY : infouser.o
 
@@ -350,6 +374,9 @@ help:
 	@echo "... infoaparta.o"
 	@echo "... infoaparta.i"
 	@echo "... infoaparta.s"
+	@echo "... infoaparta_admi.o"
+	@echo "... infoaparta_admi.i"
+	@echo "... infoaparta_admi.s"
 	@echo "... infouser.o"
 	@echo "... infouser.i"
 	@echo "... infouser.s"

@@ -34,6 +34,9 @@ set(PROJECT_SOURCES
         infouser.cpp
         infouser.h
         infouser.ui
+        infoaparta_admi.cpp
+        infoaparta_admi.h
+        infoaparta_admi.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

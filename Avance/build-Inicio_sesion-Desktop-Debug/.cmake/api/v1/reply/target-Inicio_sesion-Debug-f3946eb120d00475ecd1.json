@@ -25,13 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 53,
+				"line" : 59,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 59,
+				"line" : 65,
 				"parent" : 0
 			}
 		]
@@ -122,7 +122,9 @@
 				5,
 				8,
 				11,
-				14
+				14,
+				17,
+				20
 			]
 		}
 	],
@@ -185,7 +187,9 @@
 				5,
 				8,
 				11,
-				14
+				14,
+				17,
+				20
 			]
 		},
 		{
@@ -197,11 +201,15 @@
 				9,
 				12,
 				15,
-				17,
 				18,
-				19,
-				20,
-				21
+				21,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
 			]
 		},
 		{
@@ -212,7 +220,9 @@
 				7,
 				10,
 				13,
-				16
+				16,
+				19,
+				22
 			]
 		}
 	],
@@ -312,6 +322,38 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "infouser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "infouser.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "infouser.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "infoaparta_admi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "infoaparta_admi.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "infoaparta_admi.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "/home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/include/ui_mainwindow.h",
@@ -339,6 +381,18 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "/home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/include/ui_infoaparta.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/include/ui_infouser.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/include/ui_infoaparta_admi.h",
 			"sourceGroupIndex" : 1
 		}
 	],

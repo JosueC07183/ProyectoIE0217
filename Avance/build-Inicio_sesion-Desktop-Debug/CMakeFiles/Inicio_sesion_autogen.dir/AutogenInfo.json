@@ -88,6 +88,12 @@
 			null
 		],
 		[
+			"/home/josue/Inicio_sesion/infoaparta_admi.h",
+			"MU",
+			"EWIEGA46WW/moc_infoaparta_admi.cpp",
+			null
+		],
+		[
 			"/home/josue/Inicio_sesion/infouser.h",
 			"MU",
 			"EWIEGA46WW/moc_infouser.cpp",
@@ -171,6 +177,7 @@
 	"SOURCES" : 
 	[
 		[ "/home/josue/Inicio_sesion/infoaparta.cpp", "MU", null ],
+		[ "/home/josue/Inicio_sesion/infoaparta_admi.cpp", "MU", null ],
 		[ "/home/josue/Inicio_sesion/infouser.cpp", "MU", null ],
 		[ "/home/josue/Inicio_sesion/main.cpp", "MU", null ],
 		[ "/home/josue/Inicio_sesion/mainwindow.cpp", "MU", null ],
