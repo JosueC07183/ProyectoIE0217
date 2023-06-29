@@ -1,6 +1,7 @@
-Cantidad de cuartos: 3
-Numero de Pisos: 2
-Detalles: Se permiten mascotas
-Tiene cochera: Si
-Incluye servicios: Si
-Precio: 1200
+Cantidad de cuartos: 
+Numero de Pisos: 
+Detalles: 
+Tiene cochera: 
+Incluye servicios: 
+Precio: 
+ID_Aparta:A1

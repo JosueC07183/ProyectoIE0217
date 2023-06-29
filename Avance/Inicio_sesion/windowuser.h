@@ -16,6 +16,9 @@ public:
     explicit WindowUser(QWidget *parent = nullptr);
     ~WindowUser();
 
+private slots:
+    void on_pushButtonApartasON_clicked();
+
 private:
     Ui::WindowUser *ui;
 };

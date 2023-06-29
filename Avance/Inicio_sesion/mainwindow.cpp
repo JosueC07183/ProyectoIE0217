@@ -26,7 +26,7 @@ void MainWindow::on_pushButton_Login_clicked()
         QString UserName = ui->lineEdit_User_name->text();
         QString Password = ui->lineEdit_Password->text();
 // Se verifica los credenciales del administrador.
-        if (UserName == "YahirSC007" && Password == "_AnGel007.") {
+        if (UserName == "YahirSC007" && Password == "1234") {
             QMessageBox::information(this, "YahirSC007", "Bienvenido Yahir.");
             this->hide();
 // Si se digitan correctamente los datos, se muestra la ventana correspondiente al administrador

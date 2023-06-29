@@ -146,6 +146,19 @@ border:circular
     <string>Cochera</string>
    </property>
   </widget>
+  <widget class="QLineEdit" name="lineEdit_Label">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>280</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>ID Apartamento</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

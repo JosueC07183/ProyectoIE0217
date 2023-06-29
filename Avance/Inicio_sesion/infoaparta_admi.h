@@ -22,10 +22,13 @@ private slots:
 
 private:
     Ui::InfoAparta_Admi *ui;
+    QList<QString> m_registeredIDs;
     QRegularExpressionValidator *m_regExpVal;
     QRegularExpressionValidator *m_regExpVal_2;
     QRegularExpressionValidator *m_regExpVal_3;
     QRegularExpressionValidator *m_regExpVal_4;
+    QRegularExpressionValidator *m_regExpVal_5;
+    bool isIdApartaExist(const QString& idAparta); // Declaración de la función
 };
 
 #endif // INFOAPARTA_ADMI_H

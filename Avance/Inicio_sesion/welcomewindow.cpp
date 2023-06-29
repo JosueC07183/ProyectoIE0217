@@ -40,4 +40,5 @@ void WelcomeWindow::on_pushButton_clicked()
     InfoAparta_Admi *new_Aparta = new InfoAparta_Admi();
     new_Aparta->show();
     close();
+
 }

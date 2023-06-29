@@ -41,11 +41,10 @@ void Vista_User::on_pushButton_Registro_clicked()
        }
     QFile file("datos_usuario.txt");
     // Con esto se arregla la pulga de guardos registros con espacios vacíos.
-    if (UserEmail.isEmpty() && UserPass.isEmpty() && UserPass_2.isEmpty()) {
+     if (UserEmail.isEmpty() && UserPass.isEmpty() && UserPass_2.isEmpty()) {
                 QMessageBox::warning(this, "Error", "hay campos vacios.");
                 return;  // Salir del método sin guardar los registros
             }
-
        // Se agregan los usuarios
        if (file.open(QIODevice::Append | QIODevice::Text))
        {

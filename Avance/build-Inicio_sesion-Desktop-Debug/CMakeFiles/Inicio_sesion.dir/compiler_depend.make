@@ -2877,7 +2877,8 @@ CMakeFiles/Inicio_sesion.dir/welcomewindow.cpp.o: /home/josue/Inicio_sesion/welc
   /home/josue/anaconda3/include/qt/QtCore/QString \
   /home/josue/anaconda3/include/qt/QtCore/qstring.h \
   /home/josue/Inicio_sesion/infoaparta.h \
-  /home/josue/Inicio_sesion/infouser.h
+  /home/josue/Inicio_sesion/infouser.h \
+  /home/josue/Inicio_sesion/infoaparta_admi.h
 
 CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o: /home/josue/Inicio_sesion/windowuser.cpp \
   /usr/include/stdc-predef.h \

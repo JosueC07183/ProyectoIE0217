@@ -12,3 +12,9 @@ WindowUser::~WindowUser()
 {
     delete ui;
 }
+
+void WindowUser::on_pushButtonApartasON_clicked()
+{
+
+}
+

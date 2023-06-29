@@ -30,6 +30,7 @@ public:
     QLineEdit *lineEdit_numPisos;
     QLineEdit *lineEdit_ServPub;
     QLineEdit *lineEdit_servCochera;
+    QLineEdit *lineEdit_Label;
 
     void setupUi(QWidget *InfoAparta_Admi)
     {
@@ -75,6 +76,9 @@ public:
         lineEdit_servCochera = new QLineEdit(InfoAparta_Admi);
         lineEdit_servCochera->setObjectName(QString::fromUtf8("lineEdit_servCochera"));
         lineEdit_servCochera->setGeometry(QRect(340, 160, 251, 41));
+        lineEdit_Label = new QLineEdit(InfoAparta_Admi);
+        lineEdit_Label->setObjectName(QString::fromUtf8("lineEdit_Label"));
+        lineEdit_Label->setGeometry(QRect(180, 280, 251, 41));
 
         retranslateUi(InfoAparta_Admi);
 
@@ -93,6 +97,7 @@ public:
         lineEdit_numPisos->setPlaceholderText(QCoreApplication::translate("InfoAparta_Admi", "Cantidad de Pisos", nullptr));
         lineEdit_ServPub->setPlaceholderText(QCoreApplication::translate("InfoAparta_Admi", "Servicios P\303\272blicos", nullptr));
         lineEdit_servCochera->setPlaceholderText(QCoreApplication::translate("InfoAparta_Admi", "Cochera", nullptr));
+        lineEdit_Label->setPlaceholderText(QCoreApplication::translate("InfoAparta_Admi", "ID Apartamento", nullptr));
     } // retranslateUi
 
 };
