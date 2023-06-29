@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "Inicio_sesion_autogen"
   "CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.o"
+  "CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.o.d"
   "CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o"
   "CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o.d"
   "CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.o"

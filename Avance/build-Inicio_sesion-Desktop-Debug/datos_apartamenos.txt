@@ -1,7 +1,7 @@
-Cantidad de cuartos: 
-Numero de Pisos: 
-Detalles: 
-Tiene cochera: 
-Incluye servicios: 
-Precio: 
-ID_Aparta:A1
+ID_Aparta:A2
+Cantidad de cuartos: 3
+Numero de Pisos: 2
+Detalles: Cochera para dos carros
+Tiene cochera: si
+Incluye servicios: si
+Precio: 1450

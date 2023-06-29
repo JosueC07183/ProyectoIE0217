@@ -20,13 +20,14 @@ InfoAparta_Admi::InfoAparta_Admi(QWidget *parent) :
     m_regExpVal_3 = new QRegularExpressionValidator(QRegularExpression("^[0-9]+$"), this);
     m_regExpVal_4 = new QRegularExpressionValidator(QRegularExpression("^(?i:si|no)$"), this);
     m_regExpVal_5 = new QRegularExpressionValidator(QRegularExpression("^A[1-6]$"), this);
+    ui->lineEdit_Label->setValidator(m_regExpVal_5);
     ui->lineEdit_numCuartos->setValidator(m_regExpVal_3);
     ui->lineEdit_numPisos->setValidator(m_regExpVal_3);
     ui->lineEdit_Precio->setValidator(m_regExpVal);
     ui->lineEdit_Details->setValidator(m_regExpVal_2);
     ui->lineEdit_servCochera->setValidator(m_regExpVal_4);
     ui->lineEdit_ServPub->setValidator(m_regExpVal_4);
-    ui->lineEdit_Label->setValidator(m_regExpVal_5);
+
 
 }
 
@@ -38,14 +39,13 @@ InfoAparta_Admi::~InfoAparta_Admi()
 // Este método es para añadir los apartamentos al .txt
 void InfoAparta_Admi::on_pushButton_clicked()
 {
-
+    QString idAparta = ui->lineEdit_Label->text();
     QString numCuartos = ui->lineEdit_numCuartos->text();
     QString numPisos = ui->lineEdit_numPisos->text();
     QString descDetails = ui->lineEdit_Details->text();
     QString servCochera = ui->lineEdit_servCochera->text();
     QString servPublico = ui->lineEdit_ServPub->text();
     QString numPrecio = ui->lineEdit_Precio->text();
-    QString idAparta = ui->lineEdit_Label->text();
     QFile file("datos_apartamenos.txt");
     if (isIdApartaExist(idAparta)) {
             QMessageBox::warning(this, "Error", "El ID del apartamento ya existe.");
@@ -63,13 +63,13 @@ void InfoAparta_Admi::on_pushButton_clicked()
         QTextStream stream(&file);
 
         // Escribir los datos en el archivo
+        stream << "ID_Aparta:"<< idAparta << "\n";
         stream << "Cantidad de cuartos: " << numCuartos << "\n";
         stream << "Numero de Pisos: " << numPisos << "\n";
         stream << "Detalles: " << descDetails << "\n";
         stream << "Tiene cochera: " << servCochera << "\n";
         stream << "Incluye servicios: " << servPublico << "\n";
         stream << "Precio: " << numPrecio << "\n";
-        stream << "ID_Aparta:"<< idAparta << "\n";
 
         // Cerrar el archivo
         file.close();
@@ -78,13 +78,13 @@ void InfoAparta_Admi::on_pushButton_clicked()
         QMessageBox::information(this, "Registro Exitoso", "Los datos de los apartamentos se guardaron correctamente");
         // Aca vacio se limpian los espacios una vez que se hace el registro
         // -del usuario
+        ui->lineEdit_Label->clear();
         ui->lineEdit_numCuartos->clear();
         ui->lineEdit_numPisos->clear();
         ui->lineEdit_Details->clear();
         ui->lineEdit_servCochera->clear();
         ui->lineEdit_ServPub->clear();
         ui->lineEdit_Precio->clear();
-        ui->lineEdit_Label->clear();
     }
     else
     {

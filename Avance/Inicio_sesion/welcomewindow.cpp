@@ -3,6 +3,7 @@
 #include "mainwindow.h"
 #include "infouser.h"
 #include "infoaparta_admi.h"
+#include "buscaraparta.h"
 WelcomeWindow::WelcomeWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::WelcomeWindow)
@@ -42,3 +43,12 @@ void WelcomeWindow::on_pushButton_clicked()
     close();
 
 }
+// Aqui se implementara un buscador para eliminar los apartas por etiqueta.
+void WelcomeWindow::on_pushButton_5_clicked()
+{
+    BuscarAparta *quit_Aparta = new BuscarAparta();
+    quit_Aparta->show();
+    close();
+
+}
+

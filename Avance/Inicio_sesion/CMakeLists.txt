@@ -37,6 +37,13 @@ set(PROJECT_SOURCES
         infoaparta_admi.cpp
         infoaparta_admi.h
         infoaparta_admi.ui
+        Buscar.ui
+        buscaraparta.cpp
+        buscaraparta.h
+        buscaraparta.ui
+
+
+
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

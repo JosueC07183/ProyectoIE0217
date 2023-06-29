@@ -166,6 +166,30 @@ Inicio_sesion_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.s
 .PHONY : Inicio_sesion_autogen/mocs_compilation.cpp.s
 
+buscaraparta.o: buscaraparta.cpp.o
+.PHONY : buscaraparta.o
+
+# target to build an object file
+buscaraparta.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.o
+.PHONY : buscaraparta.cpp.o
+
+buscaraparta.i: buscaraparta.cpp.i
+.PHONY : buscaraparta.i
+
+# target to preprocess a source file
+buscaraparta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.i
+.PHONY : buscaraparta.cpp.i
+
+buscaraparta.s: buscaraparta.cpp.s
+.PHONY : buscaraparta.s
+
+# target to generate assembly for a file
+buscaraparta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.s
+.PHONY : buscaraparta.cpp.s
+
 infoaparta.o: infoaparta.cpp.o
 .PHONY : infoaparta.o
 
@@ -371,6 +395,9 @@ help:
 	@echo "... Inicio_sesion_autogen/mocs_compilation.o"
 	@echo "... Inicio_sesion_autogen/mocs_compilation.i"
 	@echo "... Inicio_sesion_autogen/mocs_compilation.s"
+	@echo "... buscaraparta.o"
+	@echo "... buscaraparta.i"
+	@echo "... buscaraparta.s"
 	@echo "... infoaparta.o"
 	@echo "... infoaparta.i"
 	@echo "... infoaparta.s"

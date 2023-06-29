@@ -142,6 +142,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/josue/Inicio_sesion/buscaraparta.h",
+			"MU",
+			"EWIEGA46WW/moc_buscaraparta.cpp",
+			null
+		],
+		[
 			"/home/josue/Inicio_sesion/infoaparta.h",
 			"MU",
 			"EWIEGA46WW/moc_infoaparta.cpp",
@@ -236,6 +242,7 @@
 	"SETTINGS_FILE" : "/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles/Inicio_sesion_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/josue/Inicio_sesion/buscaraparta.cpp", "MU", null ],
 		[ "/home/josue/Inicio_sesion/infoaparta.cpp", "MU", null ],
 		[ "/home/josue/Inicio_sesion/infoaparta_admi.cpp", "MU", null ],
 		[ "/home/josue/Inicio_sesion/infouser.cpp", "MU", null ],
