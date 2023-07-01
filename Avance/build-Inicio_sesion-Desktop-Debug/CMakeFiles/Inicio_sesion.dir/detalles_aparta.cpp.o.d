@@ -1,6 +1,6 @@
-CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o: \
- /home/josue/Inicio_sesion/infoaparta.cpp /usr/include/stdc-predef.h \
- /home/josue/Inicio_sesion/infoaparta.h \
+CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.o: \
+ /home/josue/Inicio_sesion/detalles_aparta.cpp /usr/include/stdc-predef.h \
+ /home/josue/Inicio_sesion/detalles_aparta.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
  /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h \
  /home/josue/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
@@ -267,31 +267,10 @@ CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o: \
  /home/josue/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
  /home/josue/anaconda3/include/qt/QtGui/qcursor.h \
  /home/josue/anaconda3/include/qt/QtGui/qkeysequence.h \
- /home/josue/Inicio_sesion/mainwindow.h \
- /home/josue/anaconda3/include/qt/QtWidgets/QMainWindow \
- /home/josue/anaconda3/include/qt/QtWidgets/qmainwindow.h \
- /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h \
- /home/josue/anaconda3/include/qt/QtWidgets/qtabwidget.h \
- /home/josue/anaconda3/include/qt/QtGui/qicon.h \
- /home/josue/anaconda3/include/qt/QtWidgets/QMessageBox \
- /home/josue/anaconda3/include/qt/QtWidgets/qmessagebox.h \
- /home/josue/anaconda3/include/qt/QtWidgets/qdialog.h \
- /home/josue/Inicio_sesion/welcomewindow.h \
- /home/josue/Inicio_sesion/vista_user.h \
- /home/josue/anaconda3/include/qt/QtCore/QFile \
- /home/josue/anaconda3/include/qt/QtCore/qfile.h \
- /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h \
- /home/josue/anaconda3/include/qt/QtCore/QTextStream \
- /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
- /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
- /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
- /home/josue/anaconda3/include/qt/QtCore/qmap.h \
- /home/josue/anaconda3/include/qt/QtCore/QString \
- /home/josue/anaconda3/include/qt/QtCore/qstring.h \
- /home/josue/Inicio_sesion/infoaparta.h \
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/include/ui_infoaparta.h \
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/include/ui_detalles_aparta.h \
  /home/josue/anaconda3/include/qt/QtCore/QVariant \
  /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
+ /home/josue/anaconda3/include/qt/QtCore/qmap.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QApplication \
  /home/josue/anaconda3/include/qt/QtWidgets/qapplication.h \
  /home/josue/anaconda3/include/qt/QtCore/qcoreapplication.h \
@@ -299,11 +278,40 @@ CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o: \
  /home/josue/anaconda3/include/qt/QtCore/qeventloop.h \
  /home/josue/anaconda3/include/qt/QtGui/qguiapplication.h \
  /home/josue/anaconda3/include/qt/QtGui/qinputmethod.h \
+ /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
+ /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QGroupBox \
+ /home/josue/anaconda3/include/qt/QtWidgets/qgroupbox.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qframe.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QLabel \
  /home/josue/anaconda3/include/qt/QtWidgets/qlabel.h \
- /home/josue/anaconda3/include/qt/QtWidgets/qframe.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QPushButton \
  /home/josue/anaconda3/include/qt/QtWidgets/qpushbutton.h \
  /home/josue/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
+ /home/josue/anaconda3/include/qt/QtGui/qicon.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QRadioButton \
+ /home/josue/anaconda3/include/qt/QtWidgets/qradiobutton.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QTabWidget \
+ /home/josue/anaconda3/include/qt/QtWidgets/qtabwidget.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QTextBrowser \
+ /home/josue/anaconda3/include/qt/QtWidgets/qtextbrowser.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qtextedit.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h \
+ /home/josue/anaconda3/include/qt/QtGui/qtextdocument.h \
+ /home/josue/anaconda3/include/qt/QtCore/qurl.h \
+ /home/josue/anaconda3/include/qt/QtGui/qtextoption.h \
+ /home/josue/anaconda3/include/qt/QtGui/qtextcursor.h \
+ /home/josue/anaconda3/include/qt/QtGui/qtextformat.h \
+ /home/josue/anaconda3/include/qt/QtGui/qpen.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
- /home/josue/Inicio_sesion/windowuser.h
+ /home/josue/Inicio_sesion/infoaparta_admi.h \
+ /home/josue/Inicio_sesion/windowuser.h \
+ /home/josue/anaconda3/include/qt/QtCore/QFile \
+ /home/josue/anaconda3/include/qt/QtCore/qfile.h \
+ /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h \
+ /home/josue/anaconda3/include/qt/QtCore/QTextStream \
+ /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QMessageBox \
+ /home/josue/anaconda3/include/qt/QtWidgets/qmessagebox.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qdialog.h

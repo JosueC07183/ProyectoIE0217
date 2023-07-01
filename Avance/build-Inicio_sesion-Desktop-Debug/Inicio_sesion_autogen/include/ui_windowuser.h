@@ -22,7 +22,6 @@ class Ui_WindowUser
 public:
     QLabel *label_Title;
     QPushButton *pushButtonApartasON;
-    QPushButton *pushButtonApartasBuild;
     QPushButton *pushButtonExit;
 
     void setupUi(QWidget *WindowUser)
@@ -45,7 +44,7 @@ public:
 "}"));
         pushButtonApartasON = new QPushButton(WindowUser);
         pushButtonApartasON->setObjectName(QString::fromUtf8("pushButtonApartasON"));
-        pushButtonApartasON->setGeometry(QRect(140, 180, 251, 41));
+        pushButtonApartasON->setGeometry(QRect(210, 180, 251, 41));
         QFont font1;
         font1.setFamily(QString::fromUtf8("Lobster Two"));
         font1.setPointSize(18);
@@ -56,19 +55,9 @@ public:
 "color:black;\n"
 "border:circular\n"
 "}"));
-        pushButtonApartasBuild = new QPushButton(WindowUser);
-        pushButtonApartasBuild->setObjectName(QString::fromUtf8("pushButtonApartasBuild"));
-        pushButtonApartasBuild->setGeometry(QRect(140, 250, 271, 41));
-        pushButtonApartasBuild->setFont(font1);
-        pushButtonApartasBuild->setStyleSheet(QString::fromUtf8("QPushButton\n"
-"{\n"
-"background-color:rgb(255, 26, 191);\n"
-"color:black;\n"
-"border:circular\n"
-"}"));
         pushButtonExit = new QPushButton(WindowUser);
         pushButtonExit->setObjectName(QString::fromUtf8("pushButtonExit"));
-        pushButtonExit->setGeometry(QRect(230, 340, 111, 51));
+        pushButtonExit->setGeometry(QRect(270, 280, 111, 51));
         pushButtonExit->setFont(font1);
         pushButtonExit->setStyleSheet(QString::fromUtf8("QPushButton\n"
 "{\n"
@@ -86,8 +75,7 @@ public:
     {
         WindowUser->setWindowTitle(QCoreApplication::translate("WindowUser", "Form", nullptr));
         label_Title->setText(QCoreApplication::translate("WindowUser", "        Bosques de Cristo Rey", nullptr));
-        pushButtonApartasON->setText(QCoreApplication::translate("WindowUser", "Apartamentos disponibles", nullptr));
-        pushButtonApartasBuild->setText(QCoreApplication::translate("WindowUser", "Apartamentos en construcci\303\263n", nullptr));
+        pushButtonApartasON->setText(QCoreApplication::translate("WindowUser", "Listas de Apartamentos", nullptr));
         pushButtonExit->setText(QCoreApplication::translate("WindowUser", "Salir", nullptr));
     } // retranslateUi
 

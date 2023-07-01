@@ -288,4 +288,23 @@ CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o: \
  /home/josue/anaconda3/include/qt/QtWidgets/qpushbutton.h \
  /home/josue/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
  /home/josue/anaconda3/include/qt/QtGui/qicon.h \
- /home/josue/anaconda3/include/qt/QtWidgets/QWidget
+ /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
+ /home/josue/Inicio_sesion/infoaparta.h \
+ /home/josue/Inicio_sesion/mainwindow.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QMainWindow \
+ /home/josue/anaconda3/include/qt/QtWidgets/qmainwindow.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qtabwidget.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/QMessageBox \
+ /home/josue/anaconda3/include/qt/QtWidgets/qmessagebox.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qdialog.h \
+ /home/josue/Inicio_sesion/welcomewindow.h \
+ /home/josue/Inicio_sesion/vista_user.h \
+ /home/josue/anaconda3/include/qt/QtCore/QFile \
+ /home/josue/anaconda3/include/qt/QtCore/qfile.h \
+ /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h \
+ /home/josue/anaconda3/include/qt/QtCore/QTextStream \
+ /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
+ /home/josue/anaconda3/include/qt/QtCore/QString \
+ /home/josue/anaconda3/include/qt/QtCore/qstring.h \
+ /home/josue/Inicio_sesion/infoaparta.h \
+ /home/josue/Inicio_sesion/detalles_aparta.h

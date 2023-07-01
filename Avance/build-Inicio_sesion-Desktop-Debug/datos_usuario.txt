@@ -1,0 +1,6 @@
+Nombre de usuario: joel.campbell
+Contrasena: 12345
+Fecha nacimiento: 30/6/93
+Nombre de usuario: ema.quesada@ucr.ac.cr
+Contrasena: ataquee
+Fecha nacimiento: 19/10/20

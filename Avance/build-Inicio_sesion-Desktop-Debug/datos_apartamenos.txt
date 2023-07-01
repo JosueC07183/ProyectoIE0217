@@ -5,3 +5,38 @@ Detalles: Cochera para dos carros
 Tiene cochera: si
 Incluye servicios: si
 Precio: 1450
+ID_Aparta:A1
+Cantidad de cuartos: 3
+Numero de Pisos: 2
+Detalles: Cochera para dos carros
+Tiene cochera: si
+Incluye servicios: si
+Precio: 1450
+ID_Aparta:A3
+Cantidad de cuartos: 4
+Numero de Pisos: 1
+Detalles: Patio amplio
+Tiene cochera: si
+Incluye servicios: si
+Precio: 1850
+ID_Aparta:A4
+Cantidad de cuartos: 2
+Numero de Pisos: 1
+Detalles: Con vista al mar
+Tiene cochera: Si
+Incluye servicios: si
+Precio: 1250
+ID_Aparta:A5
+Cantidad de cuartos: 4
+Numero de Pisos: 1
+Detalles: Acados en ceramica y terraza 
+Tiene cochera: Si
+Incluye servicios: Si
+Precio: 1950
+ID_Aparta:A6
+Cantidad de cuartos: 3
+Numero de Pisos: 2
+Detalles: Piscina y zona verde con ranchito
+Tiene cochera: Si
+Incluye servicios: Si
+Precio: 1750

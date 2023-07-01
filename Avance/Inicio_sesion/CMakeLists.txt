@@ -28,21 +28,18 @@ set(PROJECT_SOURCES
         windowuser.cpp
         windowuser.h
         windowuser.ui
-        infoaparta.cpp
-        infoaparta.h
-        infoaparta.ui
         infouser.cpp
         infouser.h
         infouser.ui
         infoaparta_admi.cpp
         infoaparta_admi.h
         infoaparta_admi.ui
-        Buscar.ui
         buscaraparta.cpp
         buscaraparta.h
         buscaraparta.ui
-
-
+        detalles_aparta.cpp
+        detalles_aparta.h
+        detalles_aparta.ui
 
 )
 

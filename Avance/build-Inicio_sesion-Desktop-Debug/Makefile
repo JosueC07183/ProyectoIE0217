@@ -190,29 +190,29 @@ buscaraparta.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.s
 .PHONY : buscaraparta.cpp.s
 
-infoaparta.o: infoaparta.cpp.o
-.PHONY : infoaparta.o
+detalles_aparta.o: detalles_aparta.cpp.o
+.PHONY : detalles_aparta.o
 
 # target to build an object file
-infoaparta.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o
-.PHONY : infoaparta.cpp.o
+detalles_aparta.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.o
+.PHONY : detalles_aparta.cpp.o
 
-infoaparta.i: infoaparta.cpp.i
-.PHONY : infoaparta.i
+detalles_aparta.i: detalles_aparta.cpp.i
+.PHONY : detalles_aparta.i
 
 # target to preprocess a source file
-infoaparta.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.i
-.PHONY : infoaparta.cpp.i
+detalles_aparta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.i
+.PHONY : detalles_aparta.cpp.i
 
-infoaparta.s: infoaparta.cpp.s
-.PHONY : infoaparta.s
+detalles_aparta.s: detalles_aparta.cpp.s
+.PHONY : detalles_aparta.s
 
 # target to generate assembly for a file
-infoaparta.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.s
-.PHONY : infoaparta.cpp.s
+detalles_aparta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inicio_sesion.dir/build.make CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.s
+.PHONY : detalles_aparta.cpp.s
 
 infoaparta_admi.o: infoaparta_admi.cpp.o
 .PHONY : infoaparta_admi.o
@@ -398,9 +398,9 @@ help:
 	@echo "... buscaraparta.o"
 	@echo "... buscaraparta.i"
 	@echo "... buscaraparta.s"
-	@echo "... infoaparta.o"
-	@echo "... infoaparta.i"
-	@echo "... infoaparta.s"
+	@echo "... detalles_aparta.o"
+	@echo "... detalles_aparta.i"
+	@echo "... detalles_aparta.s"
 	@echo "... infoaparta_admi.o"
 	@echo "... infoaparta_admi.i"
 	@echo "... infoaparta_admi.s"

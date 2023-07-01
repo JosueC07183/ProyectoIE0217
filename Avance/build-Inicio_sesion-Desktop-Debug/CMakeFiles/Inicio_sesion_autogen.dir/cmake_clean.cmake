@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Inicio_sesion_autogen"
-  "Inicio_sesion_autogen/include/ui_Buscar.h"
   "Inicio_sesion_autogen/include/ui_buscaraparta.h"
-  "Inicio_sesion_autogen/include/ui_infoaparta.h"
+  "Inicio_sesion_autogen/include/ui_detalles_aparta.h"
   "Inicio_sesion_autogen/include/ui_infoaparta_admi.h"
   "Inicio_sesion_autogen/include/ui_infouser.h"
   "Inicio_sesion_autogen/include/ui_mainwindow.h"

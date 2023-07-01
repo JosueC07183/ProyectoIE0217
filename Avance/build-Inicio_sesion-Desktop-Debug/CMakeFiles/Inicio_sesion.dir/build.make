@@ -153,24 +153,10 @@ CMakeFiles/Inicio_sesion.dir/windowuser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Inicio_sesion.dir/windowuser.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/josue/Inicio_sesion/windowuser.cpp -o CMakeFiles/Inicio_sesion.dir/windowuser.cpp.s
 
-CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o: CMakeFiles/Inicio_sesion.dir/flags.make
-CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o: /home/josue/Inicio_sesion/infoaparta.cpp
-CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o: CMakeFiles/Inicio_sesion.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o -MF CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o.d -o CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o -c /home/josue/Inicio_sesion/infoaparta.cpp
-
-CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/josue/Inicio_sesion/infoaparta.cpp > CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.i
-
-CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/josue/Inicio_sesion/infoaparta.cpp -o CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.s
-
 CMakeFiles/Inicio_sesion.dir/infouser.cpp.o: CMakeFiles/Inicio_sesion.dir/flags.make
 CMakeFiles/Inicio_sesion.dir/infouser.cpp.o: /home/josue/Inicio_sesion/infouser.cpp
 CMakeFiles/Inicio_sesion.dir/infouser.cpp.o: CMakeFiles/Inicio_sesion.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Inicio_sesion.dir/infouser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Inicio_sesion.dir/infouser.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Inicio_sesion.dir/infouser.cpp.o -MF CMakeFiles/Inicio_sesion.dir/infouser.cpp.o.d -o CMakeFiles/Inicio_sesion.dir/infouser.cpp.o -c /home/josue/Inicio_sesion/infouser.cpp
 
 CMakeFiles/Inicio_sesion.dir/infouser.cpp.i: cmake_force
@@ -184,7 +170,7 @@ CMakeFiles/Inicio_sesion.dir/infouser.cpp.s: cmake_force
 CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.o: CMakeFiles/Inicio_sesion.dir/flags.make
 CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.o: /home/josue/Inicio_sesion/infoaparta_admi.cpp
 CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.o: CMakeFiles/Inicio_sesion.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.o -MF CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.o.d -o CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.o -c /home/josue/Inicio_sesion/infoaparta_admi.cpp
 
 CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.i: cmake_force
@@ -198,7 +184,7 @@ CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.s: cmake_force
 CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.o: CMakeFiles/Inicio_sesion.dir/flags.make
 CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.o: /home/josue/Inicio_sesion/buscaraparta.cpp
 CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.o: CMakeFiles/Inicio_sesion.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.o -MF CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.o.d -o CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.o -c /home/josue/Inicio_sesion/buscaraparta.cpp
 
 CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.i: cmake_force
@@ -209,6 +195,20 @@ CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/josue/Inicio_sesion/buscaraparta.cpp -o CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.s
 
+CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.o: CMakeFiles/Inicio_sesion.dir/flags.make
+CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.o: /home/josue/Inicio_sesion/detalles_aparta.cpp
+CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.o: CMakeFiles/Inicio_sesion.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/josue/build-Inicio_sesion-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.o -MF CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.o.d -o CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.o -c /home/josue/Inicio_sesion/detalles_aparta.cpp
+
+CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/josue/Inicio_sesion/detalles_aparta.cpp > CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.i
+
+CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/josue/Inicio_sesion/detalles_aparta.cpp -o CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.s
+
 # Object files for target Inicio_sesion
 Inicio_sesion_OBJECTS = \
 "CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o" \
@@ -217,10 +217,10 @@ Inicio_sesion_OBJECTS = \
 "CMakeFiles/Inicio_sesion.dir/welcomewindow.cpp.o" \
 "CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o" \
 "CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o" \
-"CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o" \
 "CMakeFiles/Inicio_sesion.dir/infouser.cpp.o" \
 "CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.o" \
-"CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.o"
+"CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.o" \
+"CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.o"
 
 # External object files for target Inicio_sesion
 Inicio_sesion_EXTERNAL_OBJECTS =
@@ -231,10 +231,10 @@ Inicio_sesion: CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o
 Inicio_sesion: CMakeFiles/Inicio_sesion.dir/welcomewindow.cpp.o
 Inicio_sesion: CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o
 Inicio_sesion: CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o
-Inicio_sesion: CMakeFiles/Inicio_sesion.dir/infoaparta.cpp.o
 Inicio_sesion: CMakeFiles/Inicio_sesion.dir/infouser.cpp.o
 Inicio_sesion: CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.o
 Inicio_sesion: CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.o
+Inicio_sesion: CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.o
 Inicio_sesion: CMakeFiles/Inicio_sesion.dir/build.make
 Inicio_sesion: /home/josue/anaconda3/lib/libQt5Widgets.so.5.15.2
 Inicio_sesion: /home/josue/anaconda3/lib/libQt5Gui.so.5.15.2

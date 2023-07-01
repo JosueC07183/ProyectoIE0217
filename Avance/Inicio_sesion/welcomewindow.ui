@@ -43,7 +43,7 @@ color:white
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>140</x>
       <y>130</y>
       <width>181</width>
       <height>91</height>
@@ -70,8 +70,8 @@ border:circular
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>130</y>
+      <x>270</x>
+      <y>250</y>
       <width>201</width>
       <height>91</height>
      </rect>
@@ -97,8 +97,8 @@ border:circular
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>280</y>
+      <x>430</x>
+      <y>130</y>
       <width>221</width>
       <height>91</height>
      </rect>
@@ -145,33 +145,6 @@ border:circular
     </property>
     <property name="text">
      <string>Salir</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_4">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>280</y>
-      <width>271</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Lobster Two</family>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton
-{
-background-color:rgb(255, 85, 0);
-color:black;
-border:circular
-}</string>
-    </property>
-    <property name="text">
-     <string>Ver información Apartamentos</string>
     </property>
    </widget>
   </widget>

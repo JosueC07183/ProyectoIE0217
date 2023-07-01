@@ -266,8 +266,13 @@ CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o: \
  /home/josue/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
  /home/josue/anaconda3/include/qt/QtGui/qcursor.h \
  /home/josue/anaconda3/include/qt/QtGui/qkeysequence.h \
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_infoaparta.cpp \
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/infoaparta.h \
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_detalles_aparta.cpp \
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/detalles_aparta.h \
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_infoaparta_admi.cpp \
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/infoaparta_admi.h \
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_infouser.cpp \
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/infouser.h \
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_mainwindow.cpp \
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/mainwindow.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QMainWindow \
  /home/josue/anaconda3/include/qt/QtWidgets/qmainwindow.h \
@@ -290,12 +295,7 @@ CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o: \
  /home/josue/anaconda3/include/qt/QtCore/QString \
  /home/josue/anaconda3/include/qt/QtCore/qstring.h \
  /home/josue/Inicio_sesion/infoaparta.h \
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_infoaparta_admi.cpp \
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/infoaparta_admi.h \
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_infouser.cpp \
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/infouser.h \
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_mainwindow.cpp \
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/mainwindow.h \
+ /home/josue/Inicio_sesion/mainwindow.h \
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_vista_user.cpp \
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/../../../Inicio_sesion/vista_user.h \
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_welcomewindow.cpp \
