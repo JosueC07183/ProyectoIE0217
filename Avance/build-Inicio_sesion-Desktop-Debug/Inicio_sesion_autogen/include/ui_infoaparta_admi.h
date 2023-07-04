@@ -39,10 +39,18 @@ public:
         InfoAparta_Admi->resize(663, 444);
         label = new QLabel(InfoAparta_Admi);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(50, 30, 161, 41));
+        label->setGeometry(QRect(50, 30, 251, 51));
+        QFont font;
+        font.setFamily(QString::fromUtf8("Lobster Two"));
+        font.setPointSize(18);
+        label->setFont(font);
         pushButton = new QPushButton(InfoAparta_Admi);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(120, 380, 101, 41));
+        QFont font1;
+        font1.setFamily(QString::fromUtf8("Lobster Two"));
+        font1.setPointSize(16);
+        pushButton->setFont(font1);
         pushButton->setStyleSheet(QString::fromUtf8("QPushButton\n"
 "{\n"
 "background-color:rgb(26, 255, 10);\n"
@@ -52,6 +60,7 @@ public:
         pushButton_2 = new QPushButton(InfoAparta_Admi);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setGeometry(QRect(460, 380, 101, 41));
+        pushButton_2->setFont(font1);
         pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton\n"
 "{\n"
 "background-color:rgb(255, 11, 3);\n"

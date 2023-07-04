@@ -64,7 +64,7 @@ public:
 "}"));
         pushButton_5 = new QPushButton(centralwidget);
         pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
-        pushButton_5->setGeometry(QRect(270, 250, 201, 91));
+        pushButton_5->setGeometry(QRect(260, 250, 241, 91));
         pushButton_5->setFont(font1);
         pushButton_5->setStyleSheet(QString::fromUtf8("QPushButton\n"
 "{\n"
@@ -109,7 +109,7 @@ public:
         WelcomeWindow->setWindowTitle(QCoreApplication::translate("WelcomeWindow", "MainWindow", nullptr));
         label_Title->setText(QCoreApplication::translate("WelcomeWindow", "        Bosques de Cristo Rey", nullptr));
         pushButton->setText(QCoreApplication::translate("WelcomeWindow", "A\303\261adir apartamento", nullptr));
-        pushButton_5->setText(QCoreApplication::translate("WelcomeWindow", "Eliminar apartamento", nullptr));
+        pushButton_5->setText(QCoreApplication::translate("WelcomeWindow", "Ver/Quitar apartamento", nullptr));
         pushButton_3->setText(QCoreApplication::translate("WelcomeWindow", "Ver informaci\303\263n usuarios", nullptr));
         pushButton_2->setText(QCoreApplication::translate("WelcomeWindow", "Salir", nullptr));
     } // retranslateUi

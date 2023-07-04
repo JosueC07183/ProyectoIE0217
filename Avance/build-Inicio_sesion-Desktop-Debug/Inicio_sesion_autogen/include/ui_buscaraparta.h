@@ -25,7 +25,7 @@ public:
     QTextBrowser *textBrowser;
     QPushButton *pushButton_2;
     QPushButton *pushButton_3;
-    QWidget *widget;
+    QWidget *layoutWidget;
     QHBoxLayout *horizontalLayout;
     QLineEdit *lineEdit;
     QPushButton *pushButton;
@@ -41,22 +41,48 @@ public:
         pushButton_2 = new QPushButton(BuscarAparta);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setGeometry(QRect(90, 310, 80, 24));
+        QFont font;
+        font.setFamily(QString::fromUtf8("Lobster Two"));
+        pushButton_2->setFont(font);
+        pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(255, 85, 127);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         pushButton_3 = new QPushButton(BuscarAparta);
         pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
         pushButton_3->setGeometry(QRect(270, 310, 80, 24));
-        widget = new QWidget(BuscarAparta);
-        widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(70, 40, 331, 31));
-        horizontalLayout = new QHBoxLayout(widget);
+        pushButton_3->setFont(font);
+        pushButton_3->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(255, 0, 0);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
+        layoutWidget = new QWidget(BuscarAparta);
+        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
+        layoutWidget->setGeometry(QRect(70, 40, 331, 31));
+        horizontalLayout = new QHBoxLayout(layoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        lineEdit = new QLineEdit(widget);
+        lineEdit = new QLineEdit(layoutWidget);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
 
         horizontalLayout->addWidget(lineEdit);
 
-        pushButton = new QPushButton(widget);
+        pushButton = new QPushButton(layoutWidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        QFont font1;
+        font1.setFamily(QString::fromUtf8("Lobster Two"));
+        font1.setPointSize(12);
+        pushButton->setFont(font1);
+        pushButton->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(0, 85, 255);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
 
         horizontalLayout->addWidget(pushButton);
 

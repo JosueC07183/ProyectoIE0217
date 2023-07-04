@@ -58,29 +58,65 @@ public:
         tabWidget = new QTabWidget(Detalles_Aparta);
         tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
         tabWidget->setGeometry(QRect(70, 50, 551, 291));
+        QFont font;
+        font.setFamily(QString::fromUtf8("Lobster Two"));
+        font.setPointSize(12);
+        tabWidget->setFont(font);
         tab_1 = new QWidget();
         tab_1->setObjectName(QString::fromUtf8("tab_1"));
         pushButton_A1 = new QPushButton(tab_1);
         pushButton_A1->setObjectName(QString::fromUtf8("pushButton_A1"));
-        pushButton_A1->setGeometry(QRect(220, 20, 80, 24));
+        pushButton_A1->setGeometry(QRect(219, 13, 81, 31));
+        QFont font1;
+        font1.setFamily(QString::fromUtf8("Lobster Two"));
+        font1.setPointSize(13);
+        pushButton_A1->setFont(font1);
+        pushButton_A1->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(0, 170, 255);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         textBrowser_A1 = new QTextBrowser(tab_1);
         textBrowser_A1->setObjectName(QString::fromUtf8("textBrowser_A1"));
         textBrowser_A1->setGeometry(QRect(90, 50, 321, 191));
         pushButton_Buy_A1 = new QPushButton(tab_1);
         pushButton_Buy_A1->setObjectName(QString::fromUtf8("pushButton_Buy_A1"));
-        pushButton_Buy_A1->setGeometry(QRect(440, 200, 80, 24));
+        pushButton_Buy_A1->setGeometry(QRect(440, 220, 80, 24));
+        QFont font2;
+        font2.setFamily(QString::fromUtf8("Lobster Two"));
+        font2.setPointSize(14);
+        pushButton_Buy_A1->setFont(font2);
+        pushButton_Buy_A1->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(0, 170, 0);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         tabWidget->addTab(tab_1, QString());
         tab_2 = new QWidget();
         tab_2->setObjectName(QString::fromUtf8("tab_2"));
         pushButton_A2 = new QPushButton(tab_2);
         pushButton_A2->setObjectName(QString::fromUtf8("pushButton_A2"));
         pushButton_A2->setGeometry(QRect(200, 10, 80, 24));
+        pushButton_A2->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(0, 170, 255);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         textBrowser_A2 = new QTextBrowser(tab_2);
         textBrowser_A2->setObjectName(QString::fromUtf8("textBrowser_A2"));
         textBrowser_A2->setGeometry(QRect(70, 40, 331, 211));
         pushButton_Buy_A2 = new QPushButton(tab_2);
         pushButton_Buy_A2->setObjectName(QString::fromUtf8("pushButton_Buy_A2"));
         pushButton_Buy_A2->setGeometry(QRect(430, 220, 80, 24));
+        pushButton_Buy_A2->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(0, 170, 0);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         tabWidget->addTab(tab_2, QString());
         tab_3 = new QWidget();
         tab_3->setObjectName(QString::fromUtf8("tab_3"));
@@ -90,9 +126,21 @@ public:
         pushButton_A3 = new QPushButton(tab_3);
         pushButton_A3->setObjectName(QString::fromUtf8("pushButton_A3"));
         pushButton_A3->setGeometry(QRect(200, 10, 80, 24));
+        pushButton_A3->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(0, 170, 255);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         pushButton_Buy_A3 = new QPushButton(tab_3);
         pushButton_Buy_A3->setObjectName(QString::fromUtf8("pushButton_Buy_A3"));
         pushButton_Buy_A3->setGeometry(QRect(430, 220, 80, 24));
+        pushButton_Buy_A3->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(0, 170, 0);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         tabWidget->addTab(tab_3, QString());
         tab_4 = new QWidget();
         tab_4->setObjectName(QString::fromUtf8("tab_4"));
@@ -102,9 +150,21 @@ public:
         pushButton_A4 = new QPushButton(tab_4);
         pushButton_A4->setObjectName(QString::fromUtf8("pushButton_A4"));
         pushButton_A4->setGeometry(QRect(200, 10, 80, 24));
+        pushButton_A4->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(0, 170, 255);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         pushButton_Buy_A4 = new QPushButton(tab_4);
         pushButton_Buy_A4->setObjectName(QString::fromUtf8("pushButton_Buy_A4"));
         pushButton_Buy_A4->setGeometry(QRect(440, 220, 80, 24));
+        pushButton_Buy_A4->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(0, 170, 0);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         tabWidget->addTab(tab_4, QString());
         tab_5 = new QWidget();
         tab_5->setObjectName(QString::fromUtf8("tab_5"));
@@ -114,9 +174,21 @@ public:
         pushButton_A5 = new QPushButton(tab_5);
         pushButton_A5->setObjectName(QString::fromUtf8("pushButton_A5"));
         pushButton_A5->setGeometry(QRect(200, 10, 80, 24));
+        pushButton_A5->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(0, 170, 255);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         pushButton_Buy_A5 = new QPushButton(tab_5);
         pushButton_Buy_A5->setObjectName(QString::fromUtf8("pushButton_Buy_A5"));
         pushButton_Buy_A5->setGeometry(QRect(440, 220, 80, 24));
+        pushButton_Buy_A5->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(0, 170, 0);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         tabWidget->addTab(tab_5, QString());
         tab_6 = new QWidget();
         tab_6->setObjectName(QString::fromUtf8("tab_6"));
@@ -127,25 +199,44 @@ public:
         pushButton_A6->setObjectName(QString::fromUtf8("pushButton_A6"));
         pushButton_A6->setEnabled(true);
         pushButton_A6->setGeometry(QRect(230, 10, 80, 24));
+        pushButton_A6->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(0, 170, 255);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         pushButton_BuyA6 = new QPushButton(tab_6);
         pushButton_BuyA6->setObjectName(QString::fromUtf8("pushButton_BuyA6"));
         pushButton_BuyA6->setGeometry(QRect(450, 220, 80, 24));
+        pushButton_BuyA6->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(0, 170, 0);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         tabWidget->addTab(tab_6, QString());
         label = new QLabel(Detalles_Aparta);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(20, 10, 201, 41));
-        QFont font;
-        font.setFamily(QString::fromUtf8("Lobster Two"));
-        font.setPointSize(18);
-        label->setFont(font);
+        QFont font3;
+        font3.setFamily(QString::fromUtf8("Lobster Two"));
+        font3.setPointSize(18);
+        label->setFont(font3);
         label->setAlignment(Qt::AlignCenter);
         pushButton = new QPushButton(Detalles_Aparta);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(640, 303, 81, 31));
+        pushButton->setFont(font2);
+        pushButton->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(255, 0, 0);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
 
         retranslateUi(Detalles_Aparta);
 
-        tabWidget->setCurrentIndex(3);
+        tabWidget->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(Detalles_Aparta);

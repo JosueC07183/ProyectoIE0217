@@ -47,13 +47,14 @@ public:
         groupBox->setGeometry(QRect(0, -20, 771, 421));
         label = new QLabel(groupBox);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(80, 130, 221, 41));
+        label->setGeometry(QRect(60, 130, 221, 41));
         QFont font;
-        font.setPointSize(20);
+        font.setFamily(QString::fromUtf8("Lobster Two"));
+        font.setPointSize(24);
         label->setFont(font);
         label_2 = new QLabel(groupBox);
         label_2->setObjectName(QString::fromUtf8("label_2"));
-        label_2->setGeometry(QRect(80, 180, 151, 41));
+        label_2->setGeometry(QRect(60, 180, 151, 41));
         label_2->setFont(font);
         lineEdit_User_name = new QLineEdit(groupBox);
         lineEdit_User_name->setObjectName(QString::fromUtf8("lineEdit_User_name"));
@@ -71,15 +72,38 @@ public:
         pushButton_Login = new QPushButton(groupBox);
         pushButton_Login->setObjectName(QString::fromUtf8("pushButton_Login"));
         pushButton_Login->setGeometry(QRect(380, 270, 141, 41));
-        pushButton_Login->setFont(font1);
+        QFont font2;
+        font2.setFamily(QString::fromUtf8("Lobster Two"));
+        font2.setPointSize(23);
+        font2.setBold(true);
+        font2.setWeight(75);
+        pushButton_Login->setFont(font2);
+        pushButton_Login->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(0, 255, 255);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         pushButton_Exit = new QPushButton(groupBox);
         pushButton_Exit->setObjectName(QString::fromUtf8("pushButton_Exit"));
         pushButton_Exit->setGeometry(QRect(630, 30, 131, 61));
-        pushButton_Exit->setFont(font1);
+        pushButton_Exit->setFont(font2);
+        pushButton_Exit->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(255, 26, 26);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         pushButton_NewAccount = new QPushButton(groupBox);
         pushButton_NewAccount->setObjectName(QString::fromUtf8("pushButton_NewAccount"));
         pushButton_NewAccount->setGeometry(QRect(300, 350, 321, 41));
-        pushButton_NewAccount->setFont(font1);
+        pushButton_NewAccount->setFont(font2);
+        pushButton_NewAccount->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(0, 0, 255);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         MainWindow->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));

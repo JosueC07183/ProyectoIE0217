@@ -76,6 +76,12 @@ public:
         font1.setFamily(QString::fromUtf8("Lobster Two"));
         font1.setPointSize(16);
         pushButton->setFont(font1);
+        pushButton->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(255, 85, 255);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         textBrowser_InfoUser = new QTextBrowser(page1);
         textBrowser_InfoUser->setObjectName(QString::fromUtf8("textBrowser_InfoUser"));
         textBrowser_InfoUser->setGeometry(QRect(70, 140, 371, 241));
@@ -86,6 +92,12 @@ public:
         font2.setFamily(QString::fromUtf8("Lobster Two"));
         font2.setPointSize(18);
         pushButton_2->setFont(font2);
+        pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(255, 26, 26);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         label_3 = new QLabel(page1);
         label_3->setObjectName(QString::fromUtf8("label_3"));
         label_3->setGeometry(QRect(20, 10, 58, 16));

@@ -41,13 +41,15 @@ public:
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(10, 20, 141, 31));
         QFont font;
-        font.setPointSize(18);
+        font.setFamily(QString::fromUtf8("Lobster Two"));
+        font.setPointSize(22);
         label->setFont(font);
         label_2 = new QLabel(Vista_User);
         label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(310, 140, 171, 21));
         QFont font1;
-        font1.setPointSize(12);
+        font1.setFamily(QString::fromUtf8("Lobster Two"));
+        font1.setPointSize(13);
         label_2->setFont(font1);
         dateEdit = new QDateEdit(Vista_User);
         dateEdit->setObjectName(QString::fromUtf8("dateEdit"));
@@ -57,9 +59,10 @@ public:
         pushButton_Registro->setObjectName(QString::fromUtf8("pushButton_Registro"));
         pushButton_Registro->setGeometry(QRect(170, 377, 131, 41));
         QFont font2;
-        font2.setPointSize(14);
-        font2.setBold(true);
-        font2.setWeight(75);
+        font2.setFamily(QString::fromUtf8("Lobster Two"));
+        font2.setPointSize(18);
+        font2.setBold(false);
+        font2.setWeight(50);
         pushButton_Registro->setFont(font2);
         pushButton_Registro->setStyleSheet(QString::fromUtf8("QPushButton\n"
 "{\n"
@@ -74,10 +77,17 @@ public:
         Salir_2->setObjectName(QString::fromUtf8("Salir_2"));
         Salir_2->setGeometry(QRect(530, 380, 71, 41));
         QFont font3;
+        font3.setFamily(QString::fromUtf8("Lobster Two"));
         font3.setPointSize(17);
-        font3.setBold(true);
-        font3.setWeight(75);
+        font3.setBold(false);
+        font3.setWeight(50);
         Salir_2->setFont(font3);
+        Salir_2->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"background-color:rgb(255, 0, 0);\n"
+"color:black;\n"
+"border:circular\n"
+"}"));
         linePass = new QLineEdit(Vista_User);
         linePass->setObjectName(QString::fromUtf8("linePass"));
         linePass->setGeometry(QRect(50, 130, 161, 31));
