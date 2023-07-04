@@ -287,7 +287,6 @@ CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o: \
  /home/josue/anaconda3/include/qt/QtCore/qmap.h \
  /home/josue/anaconda3/include/qt/QtCore/QString \
  /home/josue/anaconda3/include/qt/QtCore/qstring.h \
- /home/josue/Inicio_sesion/infoaparta.h \
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/include/./ui_mainwindow.h \
  /home/josue/anaconda3/include/qt/QtCore/QVariant \
  /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
@@ -318,8 +317,6 @@ CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o: \
  /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
  /home/josue/Inicio_sesion/vista_user.h \
  /home/josue/Inicio_sesion/windowuser.h \
- /home/josue/Inicio_sesion/infoaparta.h \
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/include/./ui_infoaparta.h \
  /home/josue/anaconda3/include/qt/QtCore/QDebug \
  /home/josue/anaconda3/include/qt/QtCore/qdebug.h \
  /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \

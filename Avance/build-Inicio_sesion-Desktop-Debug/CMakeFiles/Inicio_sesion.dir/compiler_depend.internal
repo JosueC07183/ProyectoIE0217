@@ -316,8 +316,11 @@ CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o
  /home/josue/anaconda3/include/qt/QtGui/qkeysequence.h
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_detalles_aparta.cpp
  /home/josue/Inicio_sesion/detalles_aparta.h
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_infoaparta.cpp
- /home/josue/Inicio_sesion/infoaparta.h
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_infoaparta_admi.cpp
+ /home/josue/Inicio_sesion/infoaparta_admi.h
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_infouser.cpp
+ /home/josue/Inicio_sesion/infouser.h
+ /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_mainwindow.cpp
  /home/josue/Inicio_sesion/mainwindow.h
  /home/josue/anaconda3/include/qt/QtWidgets/QMainWindow
  /home/josue/anaconda3/include/qt/QtWidgets/qmainwindow.h
@@ -339,13 +342,6 @@ CMakeFiles/Inicio_sesion.dir/Inicio_sesion_autogen/mocs_compilation.cpp.o
  /home/josue/anaconda3/include/qt/QtCore/qmap.h
  /home/josue/anaconda3/include/qt/QtCore/QString
  /home/josue/anaconda3/include/qt/QtCore/qstring.h
- /home/josue/Inicio_sesion/infoaparta.h
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_infoaparta_admi.cpp
- /home/josue/Inicio_sesion/infoaparta_admi.h
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_infouser.cpp
- /home/josue/Inicio_sesion/infouser.h
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_mainwindow.cpp
- /home/josue/Inicio_sesion/mainwindow.h
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_vista_user.cpp
  /home/josue/Inicio_sesion/vista_user.h
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/EWIEGA46WW/moc_welcomewindow.cpp
@@ -719,7 +715,6 @@ CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.o
  /home/josue/anaconda3/include/qt/QtCore/qtextstream.h
  /home/josue/anaconda3/include/qt/QtCore/QString
  /home/josue/anaconda3/include/qt/QtCore/qstring.h
- /home/josue/Inicio_sesion/infoaparta.h
  /home/josue/anaconda3/include/qt/QtGui/QRegularExpressionValidator
  /home/josue/anaconda3/include/qt/QtGui/qvalidator.h
  /home/josue/anaconda3/include/qt/QtCore/qregularexpression.h
@@ -1049,18 +1044,14 @@ CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.o
  /home/josue/anaconda3/include/qt/QtGui/qinputmethod.h
  /home/josue/anaconda3/include/qt/QtCore/qlocale.h
  /home/josue/anaconda3/include/qt/QtCore/qvariant.h
- /home/josue/anaconda3/include/qt/QtWidgets/QGroupBox
- /home/josue/anaconda3/include/qt/QtWidgets/qgroupbox.h
- /home/josue/anaconda3/include/qt/QtWidgets/qframe.h
- /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h
  /home/josue/anaconda3/include/qt/QtWidgets/QLabel
  /home/josue/anaconda3/include/qt/QtWidgets/qlabel.h
+ /home/josue/anaconda3/include/qt/QtWidgets/qframe.h
+ /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h
  /home/josue/anaconda3/include/qt/QtWidgets/QPushButton
  /home/josue/anaconda3/include/qt/QtWidgets/qpushbutton.h
  /home/josue/anaconda3/include/qt/QtWidgets/qabstractbutton.h
  /home/josue/anaconda3/include/qt/QtGui/qicon.h
- /home/josue/anaconda3/include/qt/QtWidgets/QRadioButton
- /home/josue/anaconda3/include/qt/QtWidgets/qradiobutton.h
  /home/josue/anaconda3/include/qt/QtWidgets/QTabWidget
  /home/josue/anaconda3/include/qt/QtWidgets/qtabwidget.h
  /home/josue/anaconda3/include/qt/QtWidgets/QTextBrowser
@@ -1076,11 +1067,14 @@ CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.o
  /home/josue/anaconda3/include/qt/QtWidgets/QWidget
  /home/josue/Inicio_sesion/infoaparta_admi.h
  /home/josue/Inicio_sesion/windowuser.h
+ /home/josue/Inicio_sesion/vista_user.h
  /home/josue/anaconda3/include/qt/QtCore/QFile
  /home/josue/anaconda3/include/qt/QtCore/qfile.h
  /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h
  /home/josue/anaconda3/include/qt/QtCore/QTextStream
  /home/josue/anaconda3/include/qt/QtCore/qtextstream.h
+ /home/josue/anaconda3/include/qt/QtCore/QString
+ /home/josue/anaconda3/include/qt/QtCore/qstring.h
  /home/josue/anaconda3/include/qt/QtWidgets/QMessageBox
  /home/josue/anaconda3/include/qt/QtWidgets/qmessagebox.h
  /home/josue/anaconda3/include/qt/QtWidgets/qdialog.h
@@ -1444,8 +1438,6 @@ CMakeFiles/Inicio_sesion.dir/infoaparta_admi.cpp.o
  /home/josue/anaconda3/include/qt/QtWidgets/qtabwidget.h
  /home/josue/Inicio_sesion/welcomewindow.h
  /home/josue/Inicio_sesion/vista_user.h
- /home/josue/Inicio_sesion/infoaparta.h
- /home/josue/Inicio_sesion/mainwindow.h
 
 CMakeFiles/Inicio_sesion.dir/infouser.cpp.o
  /home/josue/Inicio_sesion/infouser.cpp
@@ -2163,7 +2155,6 @@ CMakeFiles/Inicio_sesion.dir/main.cpp.o
  /home/josue/anaconda3/include/qt/QtCore/qmap.h
  /home/josue/anaconda3/include/qt/QtCore/QString
  /home/josue/anaconda3/include/qt/QtCore/qstring.h
- /home/josue/Inicio_sesion/infoaparta.h
  /home/josue/anaconda3/include/qt/QtWidgets/QApplication
  /home/josue/anaconda3/include/qt/QtWidgets/qapplication.h
  /home/josue/anaconda3/include/qt/QtCore/qcoreapplication.h
@@ -2504,7 +2495,6 @@ CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o
  /home/josue/anaconda3/include/qt/QtCore/qmap.h
  /home/josue/anaconda3/include/qt/QtCore/QString
  /home/josue/anaconda3/include/qt/QtCore/qstring.h
- /home/josue/Inicio_sesion/infoaparta.h
  /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/include/ui_mainwindow.h
  /home/josue/anaconda3/include/qt/QtCore/QVariant
  /home/josue/anaconda3/include/qt/QtCore/qvariant.h
@@ -2535,8 +2525,6 @@ CMakeFiles/Inicio_sesion.dir/mainwindow.cpp.o
  /home/josue/anaconda3/include/qt/QtWidgets/QWidget
  /home/josue/Inicio_sesion/vista_user.h
  /home/josue/Inicio_sesion/windowuser.h
- /home/josue/Inicio_sesion/infoaparta.h
- /home/josue/build-Inicio_sesion-Desktop-Debug/Inicio_sesion_autogen/include/ui_infoaparta.h
  /home/josue/anaconda3/include/qt/QtCore/QDebug
  /home/josue/anaconda3/include/qt/QtCore/qdebug.h
  /home/josue/anaconda3/include/qt/QtCore/qtextstream.h
@@ -2908,8 +2896,6 @@ CMakeFiles/Inicio_sesion.dir/vista_user.cpp.o
  /home/josue/anaconda3/include/qt/QtWidgets/qtabwidget.h
  /home/josue/Inicio_sesion/welcomewindow.h
  /home/josue/Inicio_sesion/vista_user.h
- /home/josue/Inicio_sesion/infoaparta.h
- /home/josue/Inicio_sesion/mainwindow.h
 
 CMakeFiles/Inicio_sesion.dir/welcomewindow.cpp.o
  /home/josue/Inicio_sesion/welcomewindow.cpp
@@ -3264,7 +3250,6 @@ CMakeFiles/Inicio_sesion.dir/welcomewindow.cpp.o
  /home/josue/anaconda3/include/qt/QtCore/qtextstream.h
  /home/josue/anaconda3/include/qt/QtCore/QString
  /home/josue/anaconda3/include/qt/QtCore/qstring.h
- /home/josue/Inicio_sesion/infoaparta.h
  /home/josue/Inicio_sesion/infouser.h
  /home/josue/Inicio_sesion/infoaparta_admi.h
  /home/josue/Inicio_sesion/buscaraparta.h
@@ -3603,7 +3588,6 @@ CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o
  /home/josue/anaconda3/include/qt/QtWidgets/qabstractbutton.h
  /home/josue/anaconda3/include/qt/QtGui/qicon.h
  /home/josue/anaconda3/include/qt/QtWidgets/QWidget
- /home/josue/Inicio_sesion/infoaparta.h
  /home/josue/Inicio_sesion/mainwindow.h
  /home/josue/anaconda3/include/qt/QtWidgets/QMainWindow
  /home/josue/anaconda3/include/qt/QtWidgets/qmainwindow.h
@@ -3620,6 +3604,5 @@ CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o
  /home/josue/anaconda3/include/qt/QtCore/qtextstream.h
  /home/josue/anaconda3/include/qt/QtCore/QString
  /home/josue/anaconda3/include/qt/QtCore/qstring.h
- /home/josue/Inicio_sesion/infoaparta.h
  /home/josue/Inicio_sesion/detalles_aparta.h
 

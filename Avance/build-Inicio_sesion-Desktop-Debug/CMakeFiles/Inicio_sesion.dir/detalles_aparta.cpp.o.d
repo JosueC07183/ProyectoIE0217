@@ -280,18 +280,14 @@ CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.o: \
  /home/josue/anaconda3/include/qt/QtGui/qinputmethod.h \
  /home/josue/anaconda3/include/qt/QtCore/qlocale.h \
  /home/josue/anaconda3/include/qt/QtCore/qvariant.h \
- /home/josue/anaconda3/include/qt/QtWidgets/QGroupBox \
- /home/josue/anaconda3/include/qt/QtWidgets/qgroupbox.h \
- /home/josue/anaconda3/include/qt/QtWidgets/qframe.h \
- /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QLabel \
  /home/josue/anaconda3/include/qt/QtWidgets/qlabel.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qframe.h \
+ /home/josue/anaconda3/include/qt/QtWidgets/qwidget.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QPushButton \
  /home/josue/anaconda3/include/qt/QtWidgets/qpushbutton.h \
  /home/josue/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
  /home/josue/anaconda3/include/qt/QtGui/qicon.h \
- /home/josue/anaconda3/include/qt/QtWidgets/QRadioButton \
- /home/josue/anaconda3/include/qt/QtWidgets/qradiobutton.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QTabWidget \
  /home/josue/anaconda3/include/qt/QtWidgets/qtabwidget.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QTextBrowser \
@@ -307,11 +303,14 @@ CMakeFiles/Inicio_sesion.dir/detalles_aparta.cpp.o: \
  /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
  /home/josue/Inicio_sesion/infoaparta_admi.h \
  /home/josue/Inicio_sesion/windowuser.h \
+ /home/josue/Inicio_sesion/vista_user.h \
  /home/josue/anaconda3/include/qt/QtCore/QFile \
  /home/josue/anaconda3/include/qt/QtCore/qfile.h \
  /home/josue/anaconda3/include/qt/QtCore/qfiledevice.h \
  /home/josue/anaconda3/include/qt/QtCore/QTextStream \
  /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
+ /home/josue/anaconda3/include/qt/QtCore/QString \
+ /home/josue/anaconda3/include/qt/QtCore/qstring.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QMessageBox \
  /home/josue/anaconda3/include/qt/QtWidgets/qmessagebox.h \
  /home/josue/anaconda3/include/qt/QtWidgets/qdialog.h

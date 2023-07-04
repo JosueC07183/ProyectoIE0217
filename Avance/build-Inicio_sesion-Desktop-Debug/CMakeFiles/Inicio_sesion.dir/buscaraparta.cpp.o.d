@@ -321,7 +321,6 @@ CMakeFiles/Inicio_sesion.dir/buscaraparta.cpp.o: \
  /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
  /home/josue/anaconda3/include/qt/QtCore/QString \
  /home/josue/anaconda3/include/qt/QtCore/qstring.h \
- /home/josue/Inicio_sesion/infoaparta.h \
  /home/josue/anaconda3/include/qt/QtGui/QRegularExpressionValidator \
  /home/josue/anaconda3/include/qt/QtGui/qvalidator.h \
  /home/josue/anaconda3/include/qt/QtCore/qregularexpression.h

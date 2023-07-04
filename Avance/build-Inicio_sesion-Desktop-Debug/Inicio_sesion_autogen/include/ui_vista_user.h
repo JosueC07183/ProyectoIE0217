@@ -30,6 +30,7 @@ public:
     QPushButton *Salir_2;
     QLineEdit *linePass;
     QLineEdit *linePass_2;
+    QLineEdit *lineWork;
 
     void setupUi(QWidget *Vista_User)
     {
@@ -44,13 +45,13 @@ public:
         label->setFont(font);
         label_2 = new QLabel(Vista_User);
         label_2->setObjectName(QString::fromUtf8("label_2"));
-        label_2->setGeometry(QRect(10, 257, 171, 21));
+        label_2->setGeometry(QRect(310, 140, 171, 21));
         QFont font1;
         font1.setPointSize(12);
         label_2->setFont(font1);
         dateEdit = new QDateEdit(Vista_User);
         dateEdit->setObjectName(QString::fromUtf8("dateEdit"));
-        dateEdit->setGeometry(QRect(50, 297, 171, 41));
+        dateEdit->setGeometry(QRect(310, 170, 171, 41));
         dateEdit->setCalendarPopup(true);
         pushButton_Registro = new QPushButton(Vista_User);
         pushButton_Registro->setObjectName(QString::fromUtf8("pushButton_Registro"));
@@ -68,7 +69,7 @@ public:
 "}"));
         lineEmail = new QLineEdit(Vista_User);
         lineEmail->setObjectName(QString::fromUtf8("lineEmail"));
-        lineEmail->setGeometry(QRect(50, 80, 351, 31));
+        lineEmail->setGeometry(QRect(50, 80, 161, 31));
         Salir_2 = new QPushButton(Vista_User);
         Salir_2->setObjectName(QString::fromUtf8("Salir_2"));
         Salir_2->setGeometry(QRect(530, 380, 71, 41));
@@ -79,12 +80,15 @@ public:
         Salir_2->setFont(font3);
         linePass = new QLineEdit(Vista_User);
         linePass->setObjectName(QString::fromUtf8("linePass"));
-        linePass->setGeometry(QRect(50, 130, 351, 31));
+        linePass->setGeometry(QRect(50, 130, 161, 31));
         linePass->setEchoMode(QLineEdit::Password);
         linePass_2 = new QLineEdit(Vista_User);
         linePass_2->setObjectName(QString::fromUtf8("linePass_2"));
-        linePass_2->setGeometry(QRect(50, 180, 351, 31));
+        linePass_2->setGeometry(QRect(50, 180, 161, 31));
         linePass_2->setEchoMode(QLineEdit::Password);
+        lineWork = new QLineEdit(Vista_User);
+        lineWork->setObjectName(QString::fromUtf8("lineWork"));
+        lineWork->setGeometry(QRect(310, 80, 161, 31));
 
         retranslateUi(Vista_User);
 
@@ -101,6 +105,7 @@ public:
         Salir_2->setText(QCoreApplication::translate("Vista_User", "Salir", nullptr));
         linePass->setPlaceholderText(QCoreApplication::translate("Vista_User", "Contrase\303\261a", nullptr));
         linePass_2->setPlaceholderText(QCoreApplication::translate("Vista_User", "Repite Contrase\303\261a", nullptr));
+        lineWork->setPlaceholderText(QCoreApplication::translate("Vista_User", "Ocupaci\303\263n", nullptr));
     } // retranslateUi
 
 };

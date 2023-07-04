@@ -11,12 +11,14 @@ Vista_User::Vista_User(QWidget *parent) :
     ui(new Ui::Vista_User)
 {
     ui->setupUi(this);
-// Aqui están las regex para email y pasword
+// Aqui están las regex para email, password y
     m_regExpValidator = new QRegularExpressionValidator(QRegularExpression("^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$"), this);
     m_regExpValidator_2 = new QRegularExpressionValidator(QRegularExpression("[a-zA-Z0-9._-]+@[a-zA-Z0-9]+.[a-zA-Z.]{3,8}"), this);
+    m_regExpValidator_3 = new QRegularExpressionValidator(QRegularExpression("^[a-zA-Z ]+$"), this);
     ui->lineEmail->setValidator(m_regExpValidator_2);
     ui->linePass->setValidator(m_regExpValidator);
     ui->linePass_2->setValidator(m_regExpValidator);
+    ui->lineWork->setValidator(m_regExpValidator_3);
 }
 
 Vista_User::~Vista_User()
@@ -33,6 +35,7 @@ void Vista_User::on_pushButton_Registro_clicked()
     QString UserPass = ui->linePass->text();
     QString UserPass_2 = ui->linePass_2->text();
     QString DateBorn = ui->dateEdit->text();
+    QString Trabajo = ui->lineWork->text();
 
     if (UserPass != UserPass_2)
        {
@@ -41,7 +44,7 @@ void Vista_User::on_pushButton_Registro_clicked()
        }
     QFile file("datos_usuario.txt");
     // Con esto se arregla la pulga de guardos registros con espacios vacíos.
-     if (UserEmail.isEmpty() && UserPass.isEmpty() && UserPass_2.isEmpty()) {
+     if (UserEmail.isEmpty() && UserPass.isEmpty() && UserPass_2.isEmpty() && Trabajo.isEmpty()) {
                 QMessageBox::warning(this, "Error", "hay campos vacios.");
                 return;  // Salir del método sin guardar los registros
             }
@@ -55,6 +58,8 @@ void Vista_User::on_pushButton_Registro_clicked()
            stream << "Nombre de usuario: " << UserEmail << "\n";
            stream << "Contrasena: " << UserPass << "\n";
            stream << "Fecha nacimiento: " << DateBorn << "\n";
+           stream << "Ocupacion: "<<Trabajo <<"\n";
+
 
            // Cerrar el archivo
            file.close();
@@ -66,6 +71,8 @@ void Vista_User::on_pushButton_Registro_clicked()
            ui->lineEmail->clear();
            ui->linePass->clear();
            ui->linePass_2->clear();
+           ui->lineWork->clear();
+           ui->dateEdit->clear();
        }
        else
        {

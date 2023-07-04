@@ -2,8 +2,6 @@
 #include "./ui_mainwindow.h"
 #include "vista_user.h"
 #include "windowuser.h"
-#include "infoaparta.h"
-#include "./ui_infoaparta.h"
 #include <QTextStream>
 #include <QFile>
 #include <QDebug>

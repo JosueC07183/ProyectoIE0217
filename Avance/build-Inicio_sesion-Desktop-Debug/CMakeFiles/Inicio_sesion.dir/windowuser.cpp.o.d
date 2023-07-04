@@ -289,7 +289,6 @@ CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o: \
  /home/josue/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
  /home/josue/anaconda3/include/qt/QtGui/qicon.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QWidget \
- /home/josue/Inicio_sesion/infoaparta.h \
  /home/josue/Inicio_sesion/mainwindow.h \
  /home/josue/anaconda3/include/qt/QtWidgets/QMainWindow \
  /home/josue/anaconda3/include/qt/QtWidgets/qmainwindow.h \
@@ -306,5 +305,4 @@ CMakeFiles/Inicio_sesion.dir/windowuser.cpp.o: \
  /home/josue/anaconda3/include/qt/QtCore/qtextstream.h \
  /home/josue/anaconda3/include/qt/QtCore/QString \
  /home/josue/anaconda3/include/qt/QtCore/qstring.h \
- /home/josue/Inicio_sesion/infoaparta.h \
  /home/josue/Inicio_sesion/detalles_aparta.h

@@ -35,6 +35,7 @@ private:
     Ui::Vista_User *ui;
     QRegularExpressionValidator *m_regExpValidator;
     QRegularExpressionValidator *m_regExpValidator_2;
+    QRegularExpressionValidator *m_regExpValidator_3;
 
 };
 

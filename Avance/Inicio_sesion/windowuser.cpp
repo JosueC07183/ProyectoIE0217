@@ -1,6 +1,6 @@
 #include "windowuser.h"
 #include "ui_windowuser.h"
-#include "infoaparta.h"
+//#include "infoaparta.h"
 #include "mainwindow.h"
 #include "detalles_aparta.h"
 WindowUser::WindowUser(QWidget *parent) :

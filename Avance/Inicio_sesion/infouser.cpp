@@ -19,7 +19,7 @@ InfoUser::~InfoUser()
 
 void InfoUser::on_pushButton_clicked()
 {
-    QFile archivo("/home/josue/build-Inicio_sesion-Desktop-Debug/datos_usuario.txt");
+    QFile archivo("datos_usuario.txt");
     if(!archivo.open(QIODevice::ReadOnly))
         QMessageBox::information(0, "info", archivo.errorString());
     QTextStream in(&archivo);
