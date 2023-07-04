@@ -34,6 +34,14 @@ private slots:
 
     void on_pushButton_Buy_A4_clicked();
 
+    void on_pushButton_Buy_A5_clicked();
+
+    void on_pushButton_Buy_A3_clicked();
+
+    void on_pushButton_Buy_A2_clicked();
+
+    void on_pushButton_Buy_A1_clicked();
+
 private:
     Ui::Detalles_Aparta *ui;
     QString nombreUsuarioActual;

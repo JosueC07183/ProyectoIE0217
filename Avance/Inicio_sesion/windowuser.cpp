@@ -21,9 +21,6 @@ void WindowUser::on_pushButtonApartasON_clicked()
     Detalles_Aparta *list_Aparta = new Detalles_Aparta();
     list_Aparta->show();
     close();
-    /*InfoAparta *list_Aparta = new InfoAparta();
-    list_Aparta->show();
-    close();*/
 
 }
 

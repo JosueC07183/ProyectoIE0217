@@ -18,9 +18,15 @@
     <rect>
      <x>50</x>
      <y>30</y>
-     <width>161</width>
-     <height>41</height>
+     <width>251</width>
+     <height>51</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lobster Two</family>
+     <pointsize>18</pointsize>
+    </font>
    </property>
    <property name="text">
     <string>Información Apartamentos</string>
@@ -34,6 +40,12 @@
      <width>101</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lobster Two</family>
+     <pointsize>16</pointsize>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton
@@ -55,6 +67,12 @@ border:circular
      <width>101</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lobster Two</family>
+     <pointsize>16</pointsize>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton

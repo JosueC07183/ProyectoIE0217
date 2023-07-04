@@ -70,9 +70,9 @@ border:circular
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>270</x>
+      <x>260</x>
       <y>250</y>
-      <width>201</width>
+      <width>241</width>
       <height>91</height>
      </rect>
     </property>
@@ -91,7 +91,7 @@ border:circular
 }</string>
     </property>
     <property name="text">
-     <string>Eliminar apartamento</string>
+     <string>Ver/Quitar apartamento</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">

@@ -24,7 +24,8 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>18</pointsize>
+     <family>Lobster Two</family>
+     <pointsize>22</pointsize>
     </font>
    </property>
    <property name="text">
@@ -42,7 +43,8 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>12</pointsize>
+     <family>Lobster Two</family>
+     <pointsize>13</pointsize>
     </font>
    </property>
    <property name="text">
@@ -73,9 +75,10 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>14</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
+     <family>Lobster Two</family>
+     <pointsize>18</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
     </font>
    </property>
    <property name="styleSheet">
@@ -114,10 +117,19 @@ border:circular
    </property>
    <property name="font">
     <font>
+     <family>Lobster Two</family>
      <pointsize>17</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
+     <weight>50</weight>
+     <bold>false</bold>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+background-color:rgb(255, 0, 0);
+color:black;
+border:circular
+}</string>
    </property>
    <property name="text">
     <string>Salir</string>

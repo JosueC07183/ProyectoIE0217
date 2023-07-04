@@ -75,6 +75,14 @@
         <pointsize>16</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+background-color:rgb(255, 85, 255);
+color:black;
+border:circular
+}</string>
+      </property>
       <property name="text">
        <string>Desplegar información Usuarios</string>
       </property>
@@ -103,6 +111,14 @@
         <family>Lobster Two</family>
         <pointsize>18</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+background-color:rgb(255, 26, 26);
+color:black;
+border:circular
+}</string>
       </property>
       <property name="text">
        <string>Salir</string>

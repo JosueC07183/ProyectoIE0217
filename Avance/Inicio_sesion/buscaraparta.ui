@@ -32,6 +32,19 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Lobster Two</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+background-color:rgb(255, 85, 127);
+color:black;
+border:circular
+}</string>
+   </property>
    <property name="text">
     <string>Eliminar</string>
    </property>
@@ -45,11 +58,24 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Lobster Two</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+background-color:rgb(255, 0, 0);
+color:black;
+border:circular
+}</string>
+   </property>
    <property name="text">
     <string>Salir</string>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>70</x>
@@ -68,6 +94,20 @@
     </item>
     <item>
      <widget class="QPushButton" name="pushButton">
+      <property name="font">
+       <font>
+        <family>Lobster Two</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+background-color:rgb(0, 85, 255);
+color:black;
+border:circular
+}</string>
+      </property>
       <property name="text">
        <string>Buscar</string>
       </property>
