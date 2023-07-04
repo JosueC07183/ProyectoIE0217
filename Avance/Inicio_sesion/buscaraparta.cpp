@@ -11,7 +11,7 @@ BuscarAparta::BuscarAparta(QWidget *parent) :
 {
     ui->setupUi(this);
     m_regExpVal_5 = new QRegularExpressionValidator(QRegularExpression("^A[1-6]$"), this);
-    ui->lineEdit->setValidator(m_regExpVal_5); // Buscar del apartamento.
+    ui->lineEdit->setValidator(m_regExpVal_5);
 }
 
 BuscarAparta::~BuscarAparta()
@@ -20,23 +20,22 @@ BuscarAparta::~BuscarAparta()
 }
 
 
-// Aqui se busca el apartamento por etiqueta.
+
 void BuscarAparta::on_pushButton_clicked()
 {
-    QString etiqueta = ui->lineEdit->text(); // Obtener la etiqueta del apartamento a buscar
+    QString etiqueta = ui->lineEdit->text(); 
     QFile file("datos_apartamenos.txt");
 
     if (file.open(QIODevice::ReadOnly | QIODevice::Text))
     {
         QTextStream in(&file);
-        QString apartamentoInfo; // Variable para almacenar la información del apartamento encontrado
+        QString apartamentoInfo; 
 
         while (!in.atEnd())
         {
             QString line = in.readLine();
             if (line.startsWith("ID_Aparta:") && line.contains(etiqueta))
             {
-                // Se encontró el apartamento con la etiqueta deseada, se guarda su información
                 apartamentoInfo += line + "\n";
 
                 while (!in.atEnd())
@@ -44,7 +43,6 @@ void BuscarAparta::on_pushButton_clicked()
                     line = in.readLine();
                     if (line.startsWith("ID_Aparta:"))
                     {
-                        // Se encontró otra etiqueta de apartamento, se sale del bucle interno
                         break;
                     }
                     apartamentoInfo += line + "\n";
@@ -57,7 +55,7 @@ void BuscarAparta::on_pushButton_clicked()
 
         if (!apartamentoInfo.isEmpty())
         {
-            ui->textBrowser->setText(apartamentoInfo); // Mostrar la información del apartamento en el textBrowser
+            ui->textBrowser->setText(apartamentoInfo);
         }
         else
         {
@@ -66,17 +64,17 @@ void BuscarAparta::on_pushButton_clicked()
     }
     else
     {
-        // Mostrar un mensaje de error si no se pudo abrir el archivo
+
         QMessageBox::warning(this, "Error", "No se pudo abrir el archivo para buscar los datos.");
     }
 }
 
-// Esto es para eliminar el apartamento del txt.
+
 void BuscarAparta::on_pushButton_2_clicked()
 {
-    QString etiqueta = ui->lineEdit->text(); // Obtener la etiqueta del apartamento a eliminar
+    QString etiqueta = ui->lineEdit->text();
 
-    // Verificar la existencia del archivo
+
     if (!QFile::exists("datos_apartamenos.txt"))
     {
         QMessageBox::warning(this, "Error", "El archivo de datos no existe. No se puede realizar la eliminación.");
@@ -99,7 +97,7 @@ void BuscarAparta::on_pushButton_2_clicked()
 
             if (line.startsWith("ID_Aparta:") && line.contains(etiqueta))
             {
-                // Se encontró el apartamento con la etiqueta deseada, omitir su escritura en el archivo temporal
+             
                 apartamentoEncontrado = true;
                 omitirLinea = true;
                 continue;
@@ -107,13 +105,13 @@ void BuscarAparta::on_pushButton_2_clicked()
 
             if (line.startsWith("ID_Aparta:"))
             {
-                // Si se encuentra una nueva etiqueta, dejar de omitir las líneas
+             
                 omitirLinea = false;
             }
 
             if (!omitirLinea)
             {
-                // Escribir la línea en el archivo temporal si no se debe omitir
+             
                 out << line << "\n";
             }
         }
@@ -127,22 +125,22 @@ void BuscarAparta::on_pushButton_2_clicked()
             return;
         }
 
-        // Eliminar el archivo de origen
+
         inputFile.remove();
 
-        // Renombrar el archivo temporal como el archivo de origen
+
         tempFile.rename("datos_apartamenos.txt");
 
         QMessageBox::information(this, "Eliminación Exitosa", "El registro del apartamento se eliminó correctamente.");
     }
     else
     {
-        // Mostrar un mensaje de error si no se pudieron abrir los archivos
+
         QMessageBox::warning(this, "Error", "No se pudo abrir el archivo para realizar la eliminación.");
     }
 }
 
-// Esto es para volver al menu principal.
+
 void BuscarAparta::on_pushButton_3_clicked()
 {
     WelcomeWindow *welcomewin = new WelcomeWindow;

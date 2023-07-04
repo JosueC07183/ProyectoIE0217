@@ -30,8 +30,6 @@ private slots:
 
     void on_pushButton_A6_clicked();
 
-    void on_pushButton_Alqui_clicked();
-
     void on_pushButton_BuyA6_clicked();
 
     void on_pushButton_Buy_A4_clicked();
