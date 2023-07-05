@@ -1,16 +1,16 @@
 /**
  * @file infoaparta_admi.cpp
  * @author Josué Salmerón Córdoba
- * @brief Este archivo contiene todos los lineEdit necesarios para construir un apartamento, cada uno de ellos tiene un regex para tener 
+ * @brief Este archivo contiene todos los lineEdit necesarios para construir un apartamento, cada uno de ellos tiene un regex para tener
  * consistencia en la información digitada. Cuando se escribe todo correctamente, se puede presionar el botón: añadir, pero si hay espacios
- *  vacíos, este botón no va funcionar, por lo que no podrá crear el archivo .txt destinado a guardar todos estos registros. Luego, si hay 
- *  un apartamento ya construido, es decir, no se ha vendido, entonces no se podrá construir uno con el mismo número o etiqueta, por lo que 
+ *  vacíos, este botón no va funcionar, por lo que no podrá crear el archivo .txt destinado a guardar todos estos registros. Luego, si hay
+ *  un apartamento ya construido, es decir, no se ha vendido, entonces no se podrá construir uno con el mismo número o etiqueta, por lo que
  *  al app mostrará un msj de error. Finalmente, se instancia la clase de WelcomeWindow para poder regresar a la primer vista del administrador.
  * @version 0.1
  * @date 2023-07-05
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 #include "infoaparta_admi.h"
 #include "ui_infoaparta_admi.h"
@@ -52,7 +52,7 @@ InfoAparta_Admi::~InfoAparta_Admi()
  * @brief Cuando se ha escrito la información correctamente en los LineEdit, entonces se puede crear el archivo .txt para guardar
  * la información de los apartamentos a construir. Si hay espacios vacíos no se podrá guardar la información. Finalmente, cuando se hace el
  * registro se borran todos los lineEdit para construir uno nuevo, respetando las pautas para hacerlo.
- * 
+ *
  */
 void InfoAparta_Admi::on_pushButton_clicked()
 {
@@ -84,7 +84,7 @@ void InfoAparta_Admi::on_pushButton_clicked()
         stream << "Detalles: " << descDetails << "\n";
         stream << "Tiene cochera: " << servCochera << "\n";
         stream << "Incluye servicios: " << servPublico << "\n";
-        stream << "Precio: " << numPrecio << "\n";
+        stream << "Precio($): " << numPrecio << "\n";
 
         // Cerrar el archivo
         file.close();
@@ -109,7 +109,7 @@ void InfoAparta_Admi::on_pushButton_clicked()
 /**
  * @brief Esta función es muy importante porque no permite sobre-escribir la información de un apartamento a menos que ya haya sido comprado
  * o aún no se haya construido.
- * 
+ *
  * @param idAparta: etiqueta del apartamento.
  * @return true: si esto se cumple, entonces, no deja crear el apartamento.
  * @return false: si no existe, entonces se puede construir el apartamento.
@@ -135,7 +135,7 @@ bool InfoAparta_Admi::isIdApartaExist(const QString& idAparta)
 }
 /**
  * @brief Esta función permite regresar a la ventana del administrador, donde puede realizar otras funciones.
- * 
+ *
  */
 void InfoAparta_Admi::on_pushButton_2_clicked()
 {
@@ -144,4 +144,3 @@ void InfoAparta_Admi::on_pushButton_2_clicked()
     close();
 
 }
-

@@ -5,9 +5,9 @@
  * la oportunidad de comprarlos (esto se explicará en el archivo: detalles_aparta.cpp).
  * @version 0.1
  * @date 2023-07-05
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 #ifndef WINDOWUSER_H
 #define WINDOWUSER_H
@@ -17,7 +17,11 @@
 namespace Ui {
 class WindowUser;
 }
-
+/**
+ * @brief En esta clase están programados los botones para que el usuario normal 
+ * pueda acceder al contenido de los apartamentos.
+ * 
+ */
 
 class WindowUser : public QWidget
 {

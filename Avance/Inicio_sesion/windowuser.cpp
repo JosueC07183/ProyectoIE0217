@@ -6,9 +6,9 @@
  * apartamentos de Yahir (el dueño/administrador) del poblado.
  * @version 0.1
  * @date 2023-07-04
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 #include "windowuser.h"
 #include "ui_windowuser.h"
@@ -30,7 +30,7 @@ WindowUser::~WindowUser()
  * @brief Primero se tiene que acceder a la clase Detalles_Aparta para poder acceder a la información de los apartamentos disponibles,
  * este botón solo mostrará la información de los apartamentos, así, puede que no esteń construidos o puede que ya fueron vendidos, entonces
  * si esto pasa el usuario podrá seguir buscando más apartamentos en las otras pestañas por medio del boton: "ver info".
- * 
+ *
  */
 void WindowUser::on_pushButtonApartasON_clicked()
 {
@@ -42,7 +42,7 @@ void WindowUser::on_pushButtonApartasON_clicked()
 
 /**
  * @brief Este botón se encarga de cerrar la ventana actual y mostrar la ventana principal.
- * 
+ *
  */
 void WindowUser::on_pushButtonExit_clicked()
 {
@@ -51,4 +51,3 @@ void WindowUser::on_pushButtonExit_clicked()
     close();
 
 }
-

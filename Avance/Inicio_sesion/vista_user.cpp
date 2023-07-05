@@ -8,9 +8,9 @@
  * texto
  * @version 0.1
  * @date 2023-07-04
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 #include "vista_user.h"
 #include "ui_vista_user.h"
@@ -46,7 +46,7 @@ Vista_User::~Vista_User()
  * fecha de nacimiento y ocupación. Ahora durante el registro si las contraseñas están incorrectas entonces mostrará un mensaje de
  * error que impide completar la información del usuario. Si toda la información está correcta, entonces se guarda en el .txt y cuando
  * se presiona el botón registrar, entonces todos los espacios de lineEdit se borran, lo que ayuda a crear otro usuario con más facilidad.
- * 
+ *
  */
 void Vista_User::on_pushButton_Registro_clicked()
 {
@@ -59,7 +59,7 @@ void Vista_User::on_pushButton_Registro_clicked()
     if (UserPass != UserPass_2)
        {
            QMessageBox::critical(this, "Error", "Las contraseñas deben ser iguales.");
-           return; 
+           return;
        }
     QFile file("datos_usuario.txt");
      if (UserEmail.isEmpty() && UserPass.isEmpty() && UserPass_2.isEmpty() && Trabajo.isEmpty()) {
@@ -92,8 +92,8 @@ void Vista_User::on_pushButton_Registro_clicked()
 /**
  * @brief Esta función se encarga de acomodar la información de cada usuario, de tal manera que se ordene tal como se digitó
  * anteriormente, de lo contrario habrán inconsistencias cuando se trate de ver está información.
- * 
- * @return QList<QStringList> 
+ *
+ * @return QList<QStringList>
  */
 QList<QStringList> Vista_User::getUserList() const
 {
@@ -121,7 +121,7 @@ QList<QStringList> Vista_User::getUserList() const
 /**
  * @brief Finalmente, se accede a la clase mainwindow cuando se presione el botón de salir, esto para que el nuevo usuario puede acceder
  * a la información de los apartamentos y la posibilidad de comprar uno.
- * 
+ *
  */
 void Vista_User::on_Salir_2_clicked()
 {
@@ -131,4 +131,3 @@ void Vista_User::on_Salir_2_clicked()
 
 
 }
-

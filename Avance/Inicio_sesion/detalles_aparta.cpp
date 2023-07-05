@@ -8,9 +8,9 @@
  * para que el administrador pueda saber quién compró dicho apartamento, y así, llevar un control de sus registros.
  * @version 0.1
  * @date 2023-07-05
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 #include "detalles_aparta.h"
 #include "ui_detalles_aparta.h"
@@ -36,7 +36,7 @@ Detalles_Aparta::~Detalles_Aparta()
 
 /**
  * @brief Esta función muestra la información del apartamento A1.
- * 
+ *
  */
 void Detalles_Aparta::on_pushButton_A1_clicked()
 {
@@ -82,7 +82,7 @@ void Detalles_Aparta::on_pushButton_A1_clicked()
 }
 /**
  * @brief Este metodo elimina la informacion del aparta A1, pues a la hora de comprarlo se borra el registro.
- * 
+ *
  */
 
 void Detalles_Aparta::on_pushButton_Buy_A1_clicked()
@@ -169,7 +169,7 @@ void Detalles_Aparta::on_pushButton_Buy_A1_clicked()
 }
 /**
  * @brief Esta función muestra la información del apartamento A2.
- * 
+ *
  */
 void Detalles_Aparta::on_pushButton_A2_clicked()
 {
@@ -216,7 +216,7 @@ void Detalles_Aparta::on_pushButton_A2_clicked()
 /**
  * @brief Este metodo elimina la informacion del aparta A2, pues a la hora de comprarlo se borra el registro.
 
- * 
+ *
  */
 void Detalles_Aparta::on_pushButton_Buy_A2_clicked()
 {
@@ -302,7 +302,7 @@ void Detalles_Aparta::on_pushButton_Buy_A2_clicked()
 }
 /**
  * @brief Esta función muestra la información del apartamento A3.
- * 
+ *
  */
 void Detalles_Aparta::on_pushButton_A3_clicked()
 {
@@ -349,7 +349,7 @@ void Detalles_Aparta::on_pushButton_A3_clicked()
 /**
  * @brief Este metodo elimina la informacion del aparta A3, pues a la hora de comprarlo se borra el registro.
 
- * 
+ *
  */
 void Detalles_Aparta::on_pushButton_Buy_A3_clicked()
 {
@@ -436,7 +436,7 @@ void Detalles_Aparta::on_pushButton_Buy_A3_clicked()
 
 /**
  * @brief Esta función muestra la información del apartamento A4.
- * 
+ *
  */
 void Detalles_Aparta::on_pushButton_A4_clicked()
 {
@@ -482,7 +482,7 @@ void Detalles_Aparta::on_pushButton_A4_clicked()
 /**
  * @brief Este metodo elimina la informacion del aparta A4, pues a la hora de comprarlo se borra el registro.
 
- * 
+ *
  */
 void Detalles_Aparta::on_pushButton_Buy_A4_clicked()
 {
@@ -568,7 +568,7 @@ void Detalles_Aparta::on_pushButton_Buy_A4_clicked()
 
 /**
  * @brief Esta función muestra la información del apartamento A5.
- * 
+ *
  */
 void Detalles_Aparta::on_pushButton_A5_clicked()
 {
@@ -614,7 +614,7 @@ void Detalles_Aparta::on_pushButton_A5_clicked()
 /**
  * @brief Este metodo elimina la informacion del aparta A5, pues a la hora de comprarlo se borra el registro.
 
- * 
+ *
  */
 void Detalles_Aparta::on_pushButton_Buy_A5_clicked()
 {
@@ -700,7 +700,7 @@ void Detalles_Aparta::on_pushButton_Buy_A5_clicked()
 }
 /**
  * @brief Esta función muestra la información del apartamento A6.
- * 
+ *
  */
 void Detalles_Aparta::on_pushButton_A6_clicked()
 {
@@ -747,7 +747,7 @@ void Detalles_Aparta::on_pushButton_A6_clicked()
 
 /**
  * @brief Este metodo elimina la informacion del aparta A6, pues a la hora de comprarlo se borra el registro.
- * 
+ *
  */
 void Detalles_Aparta::on_pushButton_BuyA6_clicked()
 {
@@ -833,9 +833,9 @@ void Detalles_Aparta::on_pushButton_BuyA6_clicked()
 }
 
 /**
- * @brief Esta función accede a la clase WindowUser para poder regresar a la ventana del usuario normal una vez que se presiona el botón de 
+ * @brief Esta función accede a la clase WindowUser para poder regresar a la ventana del usuario normal una vez que se presiona el botón de
  * salir.
- * 
+ *
  */
 void Detalles_Aparta::on_pushButton_clicked()
 {
@@ -844,4 +844,3 @@ void Detalles_Aparta::on_pushButton_clicked()
     close();
 
 }
-

@@ -6,9 +6,9 @@
  * acción a ese objeto, de ahí la importancia de tenerlos aquí.
  * @version 0.1
  * @date 2023-07-04
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
@@ -23,7 +23,7 @@ namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 /**
  * @brief Clase principal que muestra la primer ventana de la aplicación.
- * 
+ *
  */
 class MainWindow : public QMainWindow
 {
@@ -35,7 +35,7 @@ public:
 /**
  * @brief Se muestran los slots de manera pública, todos los slots mostrados aquí, necesariamente deben realizar una acción
  * en la ventana actual.
- * 
+ *
  */
 public slots:
     void on_pushButton_Login_clicked();

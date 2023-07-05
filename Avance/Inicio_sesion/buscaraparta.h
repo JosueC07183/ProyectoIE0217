@@ -5,9 +5,9 @@
  * estos botones.
  * @version 0.1
  * @date 2023-07-05
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 #ifndef BUSCARAPARTA_H
 #define BUSCARAPARTA_H
@@ -17,7 +17,11 @@ class QRegularExpressionValidator;
 namespace Ui {
 class BuscarAparta;
 }
-
+/**
+ * @brief Esta clase permite buscar, ver y eliminar la información de los apartamentos
+ * por parte del dueño/administrador.
+ *
+ */
 class BuscarAparta : public QWidget
 {
     Q_OBJECT

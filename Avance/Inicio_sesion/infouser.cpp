@@ -5,9 +5,9 @@
  * cual apartamento compraron.
  * @version 0.1
  * @date 2023-07-05
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 #include "infouser.h"
 #include "ui_infouser.h"
@@ -29,7 +29,7 @@ InfoUser::~InfoUser()
 }
 /**
  * @brief Aquí accede al archivo de texto e imprime su contenido conforme éste se va actualizando.
- * 
+ *
  */
 void InfoUser::on_pushButton_clicked()
 {
@@ -45,7 +45,7 @@ void InfoUser::on_pushButton_clicked()
 /**
  * @brief Esta función se encarga de cerrar la ventana actual y volver a la ventana WelcomeWindow, donde tendrá la oportunidad
  * de realizar otra acción.
- * 
+ *
  */
 void InfoUser::on_pushButton_2_clicked()
 {
@@ -53,4 +53,3 @@ void InfoUser::on_pushButton_2_clicked()
     welcomewin->show();
     close();
 }
-

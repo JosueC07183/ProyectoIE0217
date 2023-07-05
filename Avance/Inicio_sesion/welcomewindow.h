@@ -5,9 +5,9 @@
  * pública (aunque no es el caso) porque podrían ser usados por otras ventanas.
  * @version 0.1
  * @date 2023-07-04
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 #ifndef WELCOMEWINDOW_H
 #define WELCOMEWINDOW_H
@@ -19,9 +19,9 @@ class WelcomeWindow;
 }
 /**
  * @brief Esta es la clase que se instancia en el mainwindow para poder mostrar de manera inmediata el contenido para el administrador, sin
- * ella, la funciones que se le dan al administrador no tendría lugar, es decir, no podría construir apartamentos, consultar el estado de los 
+ * ella, la funciones que se le dan al administrador no tendría lugar, es decir, no podría construir apartamentos, consultar el estado de los
  * apartamentos, saber si tiene o no clientes, y el estado de sus ventas.
- * 
+ *
  */
 class WelcomeWindow : public QMainWindow
 {

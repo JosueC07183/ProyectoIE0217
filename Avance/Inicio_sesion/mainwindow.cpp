@@ -1,16 +1,16 @@
 /**
  * @file mainwindow.cpp
  * @author Josué Salmerón Córdoba
- * @brief Este archivo almacena las funciones de todos los botones que se muestran en la primera pantalla de la aplicación. 
+ * @brief Este archivo almacena las funciones de todos los botones que se muestran en la primera pantalla de la aplicación.
  * Cada uno de estos botones realiza una funcion diferente para interactuar con el usuario. La idea es poder ingresar a las
  * demás ventanas para realizar cierta acción. Por su parte, el dueño/administrador tiene funciones diferentes a las que posee
  * un usuario normal, entonces dependiendo si se trata del administrador, la aplicación te llevará a la venta del administrador,
  * y si es un usuario, implica que la aplicación lo llevará a la ventana creada para el usuario.
  * @version 0.1
  * @date 2023-07-04
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
@@ -86,7 +86,7 @@ void MainWindow::on_pushButton_Login_clicked()
 /**
  * @brief La función de este botón es para preguntarle al usuario si de verdad desea salir de la aplicación, por lo que
  * se ha diseñado tipo botón de pregunta para que sea más intuitivo.
- * 
+ *
  */
 void MainWindow::on_pushButton_Exit_clicked()
 {
@@ -101,7 +101,7 @@ void MainWindow::on_pushButton_Exit_clicked()
  * @brief Este botón hace una instancia de la clase: Vista_User, esto orientado para los usuarios convencionales, por lo que la
  * app lo va reconocer y mostrará la ventana correspondiente. Así, es necesario realizar esta instancia de esta clase y poder acceder sin
  * ningún problema al contenido de esa ventana, de lo contrario, mostrará un error.
- * 
+ *
  */
 void MainWindow::on_pushButton_NewAccount_clicked()
 {
@@ -110,4 +110,3 @@ void MainWindow::on_pushButton_NewAccount_clicked()
     new_user->show();
     close();
 }
-

@@ -9,9 +9,9 @@
  * archivo .txt para guardar el nuevo .txt y volver a re-escribir en el archivo original con la información actualizada.
  * @version 0.1
  * @date 2023-07-05
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 #include "buscaraparta.h"
 #include "ui_buscaraparta.h"
@@ -37,7 +37,7 @@ BuscarAparta::~BuscarAparta()
 
 /**
  * @brief Aqui se hace búsqueda del apartamento respectivo, de donde se muestra la información respectiva según el número de apartamento.
- * 
+ *
  */
 void BuscarAparta::on_pushButton_clicked()
 {
@@ -165,7 +165,7 @@ void BuscarAparta::on_pushButton_2_clicked()
 
 /**
  * @brief Esta función me retorna a la vista del admistrador para realizar las acciones correspondientes a esa ventana.
- * 
+ *
  */
 void BuscarAparta::on_pushButton_3_clicked()
 {

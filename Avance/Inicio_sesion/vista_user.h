@@ -5,9 +5,9 @@
  * es salir para regresar a la ventana principal de la app.
  * @version 0.1
  * @date 2023-07-04
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 #ifndef VISTA_USER_H
 #define VISTA_USER_H
@@ -22,7 +22,11 @@ class QRegularExpressionValidator;
 namespace Ui {
 class Vista_User;
 }
-
+/**
+ * @brief Esta clase le permite al usuario normal crearse una cuenta para
+ * acceder al contenido de la app.
+ * 
+ */
 class Vista_User : public QWidget
 {
     Q_OBJECT
