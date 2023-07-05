@@ -1,3 +1,14 @@
+/**
+ * @file windowuser.h
+ * @author Josué Salmerón Córdoba
+ * @brief Esta ventana tendrá solo dos botones que permitirán el desplazamiento de la ventana con la información de los apartamentos y
+ * la oportunidad de comprarlos (esto se explicará en el archivo: detalles_aparta.cpp).
+ * @version 0.1
+ * @date 2023-07-05
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #ifndef WINDOWUSER_H
 #define WINDOWUSER_H
 

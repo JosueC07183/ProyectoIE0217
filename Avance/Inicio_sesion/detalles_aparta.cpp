@@ -1,3 +1,17 @@
+/**
+ * @file detalles_aparta.cpp
+ * @author Josué Salmerón Córdoba
+ * @brief Esta función hace la instancia con infoaparta_admi, ya que al ingresar a la ventana con las pestañas de los apartamentos habrá dos
+ * botones que primero permiten ver la información de los apartamentos, y el otro comprar el apartamento. La segunda función es la que se implementa
+ * aquí para poder almacenar el registro de compra del usuario que presionó el botón de comprar, es decir, una vez que lo compra, al final de su información
+ * se le agregará una pequeña línea: Compré A1, A2...A6, dependiendo en que pestaña se encuentre se le asignará esta pequeña línea, lo cual sirve
+ * para que el administrador pueda saber quién compró dicho apartamento, y así, llevar un control de sus registros.
+ * @version 0.1
+ * @date 2023-07-05
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #include "detalles_aparta.h"
 #include "ui_detalles_aparta.h"
 #include "infoaparta_admi.h"
@@ -20,7 +34,10 @@ Detalles_Aparta::~Detalles_Aparta()
     delete ui;
 }
 
-// La idea de este metodo será ver la info del aparta A1
+/**
+ * @brief Esta función muestra la información del apartamento A1.
+ * 
+ */
 void Detalles_Aparta::on_pushButton_A1_clicked()
 {
 
@@ -63,7 +80,11 @@ void Detalles_Aparta::on_pushButton_A1_clicked()
         QMessageBox::warning(this, "Error", "No se pudo abrir el archivo para buscar los datos.");
     }
 }
-// Este metodo elimina la informacion del aparta A1, ya que se compró.
+/**
+ * @brief Este metodo elimina la informacion del aparta A1, pues a la hora de comprarlo se borra el registro.
+ * 
+ */
+
 void Detalles_Aparta::on_pushButton_Buy_A1_clicked()
 {
     // Verificar la existencia del archivo
@@ -146,7 +167,10 @@ void Detalles_Aparta::on_pushButton_Buy_A1_clicked()
         QMessageBox::warning(this, "Error", "No se pudo realizar la compra.");
     }
 }
-// La idea de este metodo será ver la info del aparta A2
+/**
+ * @brief Esta función muestra la información del apartamento A2.
+ * 
+ */
 void Detalles_Aparta::on_pushButton_A2_clicked()
 {
     QFile file("datos_apartamenos.txt");
@@ -189,7 +213,11 @@ void Detalles_Aparta::on_pushButton_A2_clicked()
     }
 
 }
-// Este metodo elimina la informacion del aparta A2, ya que se compró.
+/**
+ * @brief Este metodo elimina la informacion del aparta A2, pues a la hora de comprarlo se borra el registro.
+
+ * 
+ */
 void Detalles_Aparta::on_pushButton_Buy_A2_clicked()
 {
     // Verificar la existencia del archivo
@@ -272,7 +300,10 @@ void Detalles_Aparta::on_pushButton_Buy_A2_clicked()
         QMessageBox::warning(this, "Error", "No se pudo realizar la compra.");
     }
 }
-// La idea de este metodo será ver la info del aparta A3
+/**
+ * @brief Esta función muestra la información del apartamento A3.
+ * 
+ */
 void Detalles_Aparta::on_pushButton_A3_clicked()
 {
     QFile file("datos_apartamenos.txt");
@@ -315,6 +346,11 @@ void Detalles_Aparta::on_pushButton_A3_clicked()
     }
 
 }
+/**
+ * @brief Este metodo elimina la informacion del aparta A3, pues a la hora de comprarlo se borra el registro.
+
+ * 
+ */
 void Detalles_Aparta::on_pushButton_Buy_A3_clicked()
 {
     // Verificar la existencia del archivo
@@ -398,7 +434,10 @@ void Detalles_Aparta::on_pushButton_Buy_A3_clicked()
     }
 }
 
-// La idea de este metodo será ver la info del aparta A4
+/**
+ * @brief Esta función muestra la información del apartamento A4.
+ * 
+ */
 void Detalles_Aparta::on_pushButton_A4_clicked()
 {
     QFile file("datos_apartamenos.txt");
@@ -440,6 +479,11 @@ void Detalles_Aparta::on_pushButton_A4_clicked()
         QMessageBox::warning(this, "Error", "No se pudo abrir el archivo para buscar los datos.");
     }
 }
+/**
+ * @brief Este metodo elimina la informacion del aparta A4, pues a la hora de comprarlo se borra el registro.
+
+ * 
+ */
 void Detalles_Aparta::on_pushButton_Buy_A4_clicked()
 {
     if (!QFile::exists("datos_apartamenos.txt"))
@@ -522,7 +566,10 @@ void Detalles_Aparta::on_pushButton_Buy_A4_clicked()
     }
 }
 
-// La idea de este metodo será ver la info del aparta A5
+/**
+ * @brief Esta función muestra la información del apartamento A5.
+ * 
+ */
 void Detalles_Aparta::on_pushButton_A5_clicked()
 {
     QFile file("datos_apartamenos.txt");
@@ -564,6 +611,11 @@ void Detalles_Aparta::on_pushButton_A5_clicked()
         QMessageBox::warning(this, "Error", "No se pudo abrir el archivo para buscar los datos.");
     }
 }
+/**
+ * @brief Este metodo elimina la informacion del aparta A5, pues a la hora de comprarlo se borra el registro.
+
+ * 
+ */
 void Detalles_Aparta::on_pushButton_Buy_A5_clicked()
 {
     // Verificar la existencia del archivo
@@ -646,7 +698,10 @@ void Detalles_Aparta::on_pushButton_Buy_A5_clicked()
         QMessageBox::warning(this, "Error", "No se pudo realizar la compra.");
     }
 }
-// La idea de este metodo será ver la info del aparta A6 unicamente.
+/**
+ * @brief Esta función muestra la información del apartamento A6.
+ * 
+ */
 void Detalles_Aparta::on_pushButton_A6_clicked()
 {
     QFile file("datos_apartamenos.txt");
@@ -690,7 +745,10 @@ void Detalles_Aparta::on_pushButton_A6_clicked()
 
 }
 
-// Aquí se compra el apartamento y se borra la info del txt.
+/**
+ * @brief Este metodo elimina la informacion del aparta A6, pues a la hora de comprarlo se borra el registro.
+ * 
+ */
 void Detalles_Aparta::on_pushButton_BuyA6_clicked()
 {
     // Verificar la existencia del archivo
@@ -774,7 +832,11 @@ void Detalles_Aparta::on_pushButton_BuyA6_clicked()
     }
 }
 
-//Cerrar ventana y regresar a vista usuario.
+/**
+ * @brief Esta función accede a la clase WindowUser para poder regresar a la ventana del usuario normal una vez que se presiona el botón de 
+ * salir.
+ * 
+ */
 void Detalles_Aparta::on_pushButton_clicked()
 {
     WindowUser *window_User = new WindowUser();

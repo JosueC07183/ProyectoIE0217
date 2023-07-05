@@ -1,3 +1,14 @@
+/**
+ * @file vista_user.h
+ * @author Josue Salmerón Córdoba
+ * @brief Este header solo tiene dos botones con funcionalidades, la primera es realizar el registro de cada usuario en un .txt y la otra
+ * es salir para regresar a la ventana principal de la app.
+ * @version 0.1
+ * @date 2023-07-04
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #ifndef VISTA_USER_H
 #define VISTA_USER_H
 
@@ -23,13 +34,10 @@ public:
 
 
 private slots:
-    //void on_pushButton_clicked();
 
     void on_pushButton_Registro_clicked();
 
     void on_Salir_2_clicked();
-
-//    void on_lineEmail_cursorPositionChanged(int arg1, int arg2);
 
 private:
     Ui::Vista_User *ui;

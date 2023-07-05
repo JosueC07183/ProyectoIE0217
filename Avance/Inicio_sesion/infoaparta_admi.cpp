@@ -1,3 +1,17 @@
+/**
+ * @file infoaparta_admi.cpp
+ * @author Josué Salmerón Córdoba
+ * @brief Este archivo contiene todos los lineEdit necesarios para construir un apartamento, cada uno de ellos tiene un regex para tener 
+ * consistencia en la información digitada. Cuando se escribe todo correctamente, se puede presionar el botón: añadir, pero si hay espacios
+ *  vacíos, este botón no va funcionar, por lo que no podrá crear el archivo .txt destinado a guardar todos estos registros. Luego, si hay 
+ *  un apartamento ya construido, es decir, no se ha vendido, entonces no se podrá construir uno con el mismo número o etiqueta, por lo que 
+ *  al app mostrará un msj de error. Finalmente, se instancia la clase de WelcomeWindow para poder regresar a la primer vista del administrador.
+ * @version 0.1
+ * @date 2023-07-05
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #include "infoaparta_admi.h"
 #include "ui_infoaparta_admi.h"
 #include <QRegularExpressionValidator>
@@ -13,8 +27,6 @@ InfoAparta_Admi::InfoAparta_Admi(QWidget *parent) :
     ui(new Ui::InfoAparta_Admi)
 {
     ui->setupUi(this);
-
-//Se aplican las regex a los campos necesarios.
     m_regExpVal = new QRegularExpressionValidator(QRegularExpression("^[0-9]+(\\.[0-9]+)?$"), this);
     m_regExpVal_2 = new QRegularExpressionValidator(QRegularExpression("^[A-Za-z ]+$"), this);
     m_regExpVal_3 = new QRegularExpressionValidator(QRegularExpression("^[0-9]+$"), this);
@@ -36,7 +48,12 @@ InfoAparta_Admi::~InfoAparta_Admi()
     delete ui;
 }
 
-// Este método es para añadir los apartamentos al .txt
+/**
+ * @brief Cuando se ha escrito la información correctamente en los LineEdit, entonces se puede crear el archivo .txt para guardar
+ * la información de los apartamentos a construir. Si hay espacios vacíos no se podrá guardar la información. Finalmente, cuando se hace el
+ * registro se borran todos los lineEdit para construir uno nuevo, respetando las pautas para hacerlo.
+ * 
+ */
 void InfoAparta_Admi::on_pushButton_clicked()
 {
     QString idAparta = ui->lineEdit_Label->text();
@@ -51,7 +68,6 @@ void InfoAparta_Admi::on_pushButton_clicked()
             QMessageBox::warning(this, "Error", "El ID del apartamento ya existe.");
             return;  // Salir del método sin guardar los registros
         }
-// Con esto se arregla la pulga de guardos registros con espacios vacíos.
     if (numCuartos.isEmpty() || numPisos.isEmpty() || descDetails.isEmpty() ||
                servCochera.isEmpty() || servPublico.isEmpty() || numPrecio.isEmpty() || idAparta.isEmpty() ) {
            QMessageBox::warning(this, "Error", "Hay campos vacíos.");
@@ -59,7 +75,6 @@ void InfoAparta_Admi::on_pushButton_clicked()
       }
     if (file.open(QIODevice::Append | QIODevice::Text))
     {
-        // Crear un objeto QTextStream para escribir en el archivo
         QTextStream stream(&file);
 
         // Escribir los datos en el archivo
@@ -75,9 +90,7 @@ void InfoAparta_Admi::on_pushButton_clicked()
         file.close();
 
         // Mostrar un mensaje de éxito
-        QMessageBox::information(this, "Registro Exitoso", "Los datos de los apartamentos se guardaron correctamente");
-        // Aca vacio se limpian los espacios una vez que se hace el registro
-        // -del usuario
+        QMessageBox::information(this, "Registro Exitoso", "Los datos del apartamento se guardaron correctamente");
         ui->lineEdit_Label->clear();
         ui->lineEdit_numCuartos->clear();
         ui->lineEdit_numPisos->clear();
@@ -93,6 +106,14 @@ void InfoAparta_Admi::on_pushButton_clicked()
     }
 
 }
+/**
+ * @brief Esta función es muy importante porque no permite sobre-escribir la información de un apartamento a menos que ya haya sido comprado
+ * o aún no se haya construido.
+ * 
+ * @param idAparta: etiqueta del apartamento.
+ * @return true: si esto se cumple, entonces, no deja crear el apartamento.
+ * @return false: si no existe, entonces se puede construir el apartamento.
+ */
 bool InfoAparta_Admi::isIdApartaExist(const QString& idAparta)
 {
     QFile file("datos_apartamenos.txt");
@@ -112,7 +133,10 @@ bool InfoAparta_Admi::isIdApartaExist(const QString& idAparta)
     }
     return false;
 }
-//Este botón es para salir.
+/**
+ * @brief Esta función permite regresar a la ventana del administrador, donde puede realizar otras funciones.
+ * 
+ */
 void InfoAparta_Admi::on_pushButton_2_clicked()
 {
     WelcomeWindow *welcomewin = new WelcomeWindow;

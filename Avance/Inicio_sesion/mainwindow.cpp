@@ -1,3 +1,17 @@
+/**
+ * @file mainwindow.cpp
+ * @author Josué Salmerón Córdoba
+ * @brief Este archivo almacena las funciones de todos los botones que se muestran en la primera pantalla de la aplicación. 
+ * Cada uno de estos botones realiza una funcion diferente para interactuar con el usuario. La idea es poder ingresar a las
+ * demás ventanas para realizar cierta acción. Por su parte, el dueño/administrador tiene funciones diferentes a las que posee
+ * un usuario normal, entonces dependiendo si se trata del administrador, la aplicación te llevará a la venta del administrador,
+ * y si es un usuario, implica que la aplicación lo llevará a la ventana creada para el usuario.
+ * @version 0.1
+ * @date 2023-07-04
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "vista_user.h"
@@ -17,30 +31,30 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
-
-// Nuevo metodo login del admi.
+/**
+ * @brief Esta función se encarga de crear los datos del administrador, nombre de usuario y contraseña. El programa
+ * es capaz de reconocer la cadena de texto correspondiente al administrador. Al hacer este reconocimiento, entonces
+ * la aplicación muestra el mainwindow que le pertenece al administrador. Luego, si no existe ningún usuario, el programa
+ * muestra un mensaje: "el archivo no existe". Pero si ya existen uno o varios usuarios, entonces la app crea un archivo .txt
+ * que guardará los datos del usuario. De esa manera, si no se trata del administrador, la app entenderá que es un usuario normal
+ * y le mostrará todo lo que se almacena en en la ventana: WindowUser.
+ */
 void MainWindow::on_pushButton_Login_clicked()
 {
         QString UserName = ui->lineEdit_User_name->text();
         QString Password = ui->lineEdit_Password->text();
-// Se verifica los credenciales del administrador.
         if (UserName == "YahirSC007" && Password == "1234") {
             QMessageBox::information(this, "YahirSC007", "Bienvenido Yahir.");
             this->hide();
-// Si se digitan correctamente los datos, se muestra la ventana correspondiente al administrador
             WelcomeWindow *welcomepage = new WelcomeWindow();
             welcomepage->show();
         }
-// Luego, se lee el archivo donde se almacenan los registros de los usuarios convencionales.
         else {
             QFile file("datos_usuario.txt");
             if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
                 QMessageBox::warning(this, "Error", "No se pudo abrir el archivo de usuarios."); //Si el archivo no existe entonces, muestra un error.
                 return;
             }
-// El siguiente loop es para comprobar los registros guardados en el txt, como cada registro inicia-
-// con Nombre de usuario, entonces esto permite establecer un condicional para comprobar tanto el-
-// nombre del usuario con su respectiva contraseña.
             QTextStream in(&file);
             bool userFound = false;
             while (!in.atEnd()) {
@@ -55,9 +69,6 @@ void MainWindow::on_pushButton_Login_clicked()
                     }
                 }
             }
-// Después se cierra el archivo txt y se muestra un mensaje de bienvenida, luego la ventana
-// correspondiente a los usuarios convencionales. Ahora, si el registro de algún usuario no-
-// entonces el programa mostrará un error.
             file.close();
 
             if (userFound) {
@@ -72,7 +83,11 @@ void MainWindow::on_pushButton_Login_clicked()
 
 }
 
-// Nuevo metodo salir.
+/**
+ * @brief La función de este botón es para preguntarle al usuario si de verdad desea salir de la aplicación, por lo que
+ * se ha diseñado tipo botón de pregunta para que sea más intuitivo.
+ * 
+ */
 void MainWindow::on_pushButton_Exit_clicked()
 {
     QMessageBox::StandardButton aux;
@@ -82,7 +97,12 @@ void MainWindow::on_pushButton_Exit_clicked()
     }
 }
 
-// Nuevo metodo cuenta nueva.
+/**
+ * @brief Este botón hace una instancia de la clase: Vista_User, esto orientado para los usuarios convencionales, por lo que la
+ * app lo va reconocer y mostrará la ventana correspondiente. Así, es necesario realizar esta instancia de esta clase y poder acceder sin
+ * ningún problema al contenido de esa ventana, de lo contrario, mostrará un error.
+ * 
+ */
 void MainWindow::on_pushButton_NewAccount_clicked()
 {
     Vista_User *new_user = new Vista_User();

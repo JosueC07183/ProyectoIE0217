@@ -1,3 +1,14 @@
+/**
+ * @file detalles_aparta.h
+ * @author Josué Salmerón Córdoba
+ * @brief Aquí se encuentran todos los prototipos necesarios para darle función a cada botón, con esto se pueden realizar las compras 
+ * satisfactoriamente, donde se registran en la información de cada usuario.
+ * @version 0.1
+ * @date 2023-07-05
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #ifndef DETALLES_APARTA_H
 #define DETALLES_APARTA_H
 

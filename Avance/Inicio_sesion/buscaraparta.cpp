@@ -1,3 +1,18 @@
+/**
+ * @file buscaraparta.cpp
+ * @author Josué Salmerón Córdoba
+ * @brief Esta función es una de las complejas de toda la aplicación, porque debe leer el archivo de texto correcto y desplegar la información
+ * respectiva de cada apartamento, pero con la condición de que debe ser consistente, es decir, la app muestra la información respetando los límites
+ * de cada bloque de información. En ese sentido, por medio de una etiqueta se logra esto, y luego con un ciclo while se muestra toda la información
+ * restante. Ahora, si en el espacio donde se escribe el número de apartamento no hay nada, entonces, no se mostrará nada más que un mensaje de error
+ * por parte de la aplicación. Luego, una vez que se encuentra el apartamento, habrá un botón encargado de eliminar esa información, donde se crea otro
+ * archivo .txt para guardar el nuevo .txt y volver a re-escribir en el archivo original con la información actualizada.
+ * @version 0.1
+ * @date 2023-07-05
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #include "buscaraparta.h"
 #include "ui_buscaraparta.h"
 #include "mainwindow.h"
@@ -20,7 +35,10 @@ BuscarAparta::~BuscarAparta()
 }
 
 
-// Aqui se busca el apartamento por etiqueta.
+/**
+ * @brief Aqui se hace búsqueda del apartamento respectivo, de donde se muestra la información respectiva según el número de apartamento.
+ * 
+ */
 void BuscarAparta::on_pushButton_clicked()
 {
     QString etiqueta = ui->lineEdit->text(); // Obtener la etiqueta del apartamento a buscar
@@ -71,7 +89,10 @@ void BuscarAparta::on_pushButton_clicked()
     }
 }
 
-// Esto es para eliminar el apartamento del txt.
+/**
+ * @brief Esta función elimina la información y se vuelve actualizar el nuevo archivo con los
+ * apartamentos restantes.
+ */
 void BuscarAparta::on_pushButton_2_clicked()
 {
     QString etiqueta = ui->lineEdit->text(); // Obtener la etiqueta del apartamento a eliminar
@@ -142,7 +163,10 @@ void BuscarAparta::on_pushButton_2_clicked()
     }
 }
 
-// Esto es para volver al menu principal.
+/**
+ * @brief Esta función me retorna a la vista del admistrador para realizar las acciones correspondientes a esa ventana.
+ * 
+ */
 void BuscarAparta::on_pushButton_3_clicked()
 {
     WelcomeWindow *welcomewin = new WelcomeWindow;

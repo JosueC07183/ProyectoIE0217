@@ -1,3 +1,14 @@
+/**
+ * @file buscaraparta.h
+ * @author Josué Salmerón Córdoba
+ * @brief Esta función tiene 3 prototipos de las funciones de los botones, buscar, eliminar y salir. Estas son las funciones que realizan
+ * estos botones.
+ * @version 0.1
+ * @date 2023-07-05
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #ifndef BUSCARAPARTA_H
 #define BUSCARAPARTA_H
 
