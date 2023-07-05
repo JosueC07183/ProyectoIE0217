@@ -1,0 +1,42 @@
+ID_Aparta:A1
+Cantidad de cuartos: 3
+Numero de Pisos: 2
+Detalles: Se permiten mascotas
+Tiene cochera: Si
+Incluye servicios: Si
+Precio($): 1250
+ID_Aparta:A2
+Cantidad de cuartos: 2
+Numero de Pisos: 1
+Detalles: Tiene piscina
+Tiene cochera: Si
+Incluye servicios: Si
+Precio($): 1150
+ID_Aparta:A3
+Cantidad de cuartos: 3
+Numero de Pisos: 1
+Detalles: Amplias zonas verdes
+Tiene cochera: Si
+Incluye servicios: Si
+Precio($): 1450
+ID_Aparta:A4
+Cantidad de cuartos: 1
+Numero de Pisos: 2
+Detalles: Amueblado
+Tiene cochera: Si
+Incluye servicios: Si
+Precio($): 1050
+ID_Aparta:A5
+Cantidad de cuartos: 4
+Numero de Pisos: 2
+Detalles: Con vista a la playa
+Tiene cochera: Si
+Incluye servicios: Si
+Precio($): 1950
+ID_Aparta:A6
+Cantidad de cuartos: 3
+Numero de Pisos: 1
+Detalles: Amplio patio con ranchitos
+Tiene cochera: Si
+Incluye servicios: Si
+Precio($): 2250
